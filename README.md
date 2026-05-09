@@ -46,3 +46,10 @@ Possible alternatives:
 
 Replace the placeholder email `hello@interiorsbyborg.com.au` once your domain/email is set up.
 Replace the placeholder images with your own project images before final launch.
+
+
+## Latest content updates
+
+- Contact email updated to interiorsbyborg@gmail.com.
+- Elise Borg portrait added at public/elise-borg.jpg.
+- ABN added: 19 001 690 402.

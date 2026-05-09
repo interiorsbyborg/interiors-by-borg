@@ -12,7 +12,7 @@ const images = {
   texture: "https://images.unsplash.com/photo-1615529328331-f8917597711f?auto=format&fit=crop&w=1200&q=85",
   details: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1200&q=85",
   staging: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
-  portraitPlaceholder: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1000&q=85",
+  portraitPlaceholder: "/elise-borg.jpg",
 };
 
 const nav = [
@@ -303,7 +303,7 @@ function AboutPage({ setPage }) {
       <section className="px-5 py-16 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
-            <img className="h-96 w-full rounded-[2rem] object-cover" src={images.details} alt="Styled interior details" />
+            <img className="h-96 w-full rounded-[2rem] object-cover object-center" src={images.portraitPlaceholder} alt="Elise Borg, founder of Interiors By Borg" />
             <img className="h-96 w-full rounded-[2rem] object-cover" src={images.texture} alt="Neutral material palette" />
           </div>
           <div className="rounded-[2rem] bg-white p-8 shadow-sm md:p-12">
@@ -346,10 +346,11 @@ function ContactPage() {
             <h1 className="font-serif text-5xl leading-tight text-stone-950 md:text-6xl">Let’s make the property feel considered, calm and ready.</h1>
             <p className="mt-6 text-lg leading-8 text-stone-600">For styling, staging or refresh enquiries, send through a short note with the property location, timing and what you need help with.</p>
             <div className="mt-8 space-y-4 text-stone-700">
-              <p className="flex items-center gap-3"><Mail size={18} /> hello@interiorsbyborg.com.au</p>
+              <p className="flex items-center gap-3"><Mail size={18} /> interiorsbyborg@gmail.com</p>
               <p className="flex items-center gap-3"><MapPin size={18} /> Illawarra, South Coast & Sydney by enquiry</p>
+              <p className="text-sm text-stone-500">ABN 19 001 690 402</p>
             </div>
-            <img src={images.lounge} alt="Styled living space" className="mt-10 h-80 w-full rounded-[2rem] object-cover" />
+            <img src={images.portraitPlaceholder} alt="Elise Borg, founder of Interiors By Borg" className="mt-10 h-80 w-full rounded-[2rem] object-cover object-center" />
           </div>
           <form className="rounded-[2rem] bg-white p-7 shadow-sm md:p-10" onSubmit={(e) => e.preventDefault()}>
             <div className="grid gap-5 md:grid-cols-2">
@@ -402,6 +403,7 @@ function Footer({ setPage }) {
         <div>
           <p className="font-serif text-2xl text-stone-950">Interiors By Borg</p>
           <p className="mt-2 max-w-lg text-sm leading-6 text-stone-600">Boutique interior styling and property staging for warm, modern and market-ready spaces.</p>
+          <p className="mt-2 text-sm text-stone-500">ABN 19 001 690 402</p>
         </div>
         <div className="flex flex-wrap gap-2">
           {nav.map((item) => (
