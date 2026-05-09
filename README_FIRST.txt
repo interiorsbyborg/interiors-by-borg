@@ -1,17 +1,14 @@
-INTERIORS BY BORG – HOME + PORTFOLIO + CONTACT + ABOUT UPDATE PACKAGE
+INTERIORS BY BORG – HOME + PORTFOLIO + CONTACT UPDATE PACKAGE
 
 This package updates:
-
-ABOUT ELISE
-- Removes the in-store consultation image from the About Elise page only.
-- The same image is still kept for the Portfolio header image, as requested previously.
 
 HOME
 - Hero image under the text: "Soft neutrals. Practical styling. Beautiful first impressions."
 
 PORTFOLIO
 - Heading and subheading updated.
-- Header image next to the Portfolio heading/subheading updated.
+- Header image next to the Portfolio heading/subheading updated to:
+  /images/portfolio/portfolio-header-image.webp
 
 PORTFOLIO CARDS
 1. Interior styling → Warm neutral living
@@ -21,7 +18,20 @@ PORTFOLIO CARDS
 5. Selections → Layered material palette
 
 CONTACT
-- Contact page image updated.
+- Replaces the image shown under the Contact menu with:
+  /images/contact/contact-page-image.webp
+
+Files included:
+- src/App.jsx
+- App.jsx
+- public/images/home/home-soft-neutrals-practical-styling-first-impressions.jpg
+- public/images/portfolio/portfolio-header-image.webp
+- public/images/portfolio/warm-neutral-living.webp
+- public/images/portfolio/coastal-dining-refresh.webp
+- public/images/portfolio/calm-main-bedroom.webp
+- public/images/portfolio/bathroom-fitout-styling.jpg
+- public/images/portfolio/selections-layered-material-palette.webp
+- public/images/contact/contact-page-image.webp
 
 How to use:
 1. Download this ZIP.
