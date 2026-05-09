@@ -317,7 +317,6 @@ function AboutPage({ setPage }) {
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
             <img className="h-96 w-full rounded-[2rem] object-cover object-center" src={images.portraitPlaceholder} alt="Elise Borg, founder of Interiors By Borg" />
             <img className="h-96 w-full rounded-[2rem] object-cover" src={images.aboutInHome} alt="In-home interior design consultation" />
-            <img className="h-96 w-full rounded-[2rem] object-cover" src={images.aboutInStore} alt="Interior materials and styling consultation" />
           </div>
           <div className="rounded-[2rem] bg-white p-8 shadow-sm md:p-12">
             <p className="mb-4 text-xs uppercase tracking-[0.32em] text-stone-500">Founder & stylist</p>
@@ -392,7 +391,6 @@ ${message}`);
             <label className="mt-5 block"><span className="text-sm text-stone-600">Service</span><select name="service" className="mt-2 w-full rounded-2xl border border-stone-200 bg-[#faf8f5] px-4 py-3 outline-none focus:border-stone-500"><option>Property staging</option><option>Interior styling</option><option>Refresh consultation</option><option>Pre-sale presentation</option></select></label>
             <label className="mt-5 block"><span className="text-sm text-stone-600">Message</span><textarea name="message" className="mt-2 min-h-40 w-full rounded-2xl border border-stone-200 bg-[#faf8f5] px-4 py-3 outline-none focus:border-stone-500" placeholder="Tell us about the property, timeline and what you would like help with." required /></label>
             <button type="submit" className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-stone-950 px-5 py-4 text-sm font-medium text-white hover:bg-stone-800">Send enquiry <ArrowRight size={16} /></button>
-            <p className="mt-4 text-sm leading-6 text-stone-500">When submitted, this form opens the visitor’s email app with the enquiry addressed to interiorsbyborg@gmail.com.</p>
           </form>
         </div>
       </section>
