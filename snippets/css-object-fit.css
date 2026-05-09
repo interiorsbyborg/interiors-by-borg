@@ -1,0 +1,16 @@
+.portfolio-card__media,
+.portfolio-card__media img {
+  display: block;
+  width: 100%;
+}
+
+.portfolio-card__media img {
+  height: auto;
+  object-fit: cover;
+}
+
+/* Use only when the existing Portfolio grid requires square cards. */
+.portfolio-card__media--square img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
