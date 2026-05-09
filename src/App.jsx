@@ -23,6 +23,7 @@ const images = {
   portfolioCalmMainBedroom: "/images/portfolio/calm-main-bedroom.webp",
   portfolioBathroomFitoutStyling: "/images/portfolio/bathroom-fitout-styling.jpg",
   portfolioLayeredMaterialPalette: "/images/portfolio/selections-layered-material-palette.webp",
+  contactPageImage: "/images/contact/contact-page-image.webp",
 };
 
 const nav = [
@@ -361,7 +362,7 @@ function ContactPage() {
               <p className="flex items-center gap-3"><MapPin size={18} /> Illawarra, South Coast & Sydney by enquiry</p>
               <p className="text-sm text-stone-500">ABN 19 001 690 402</p>
             </div>
-            <img src={images.portraitPlaceholder} alt="Elise Borg, founder of Interiors By Borg" className="mt-10 h-80 w-full rounded-[2rem] object-cover object-center" />
+            <img src={images.contactPageImage} alt="Styled interior by Interiors By Borg" className="mt-10 h-80 w-full rounded-[2rem] object-cover object-center" />
           </div>
           <form className="rounded-[2rem] bg-white p-7 shadow-sm md:p-10" aria-label="Interiors By Borg website enquiry form" onSubmit={(e) => {
             e.preventDefault();

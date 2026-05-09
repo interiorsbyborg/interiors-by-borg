@@ -1,16 +1,12 @@
-INTERIORS BY BORG – HOME + PORTFOLIO UPDATE PACKAGE
+INTERIORS BY BORG – HOME + PORTFOLIO + CONTACT UPDATE PACKAGE
 
 This package updates:
 
 HOME
 - Hero image under the text: "Soft neutrals. Practical styling. Beautiful first impressions."
-- New image path: /images/home/home-soft-neutrals-practical-styling-first-impressions.jpg
 
 PORTFOLIO TEXT
-- Heading updated to:
-  "A glimpse into our styling work — refined, welcoming interiors designed to enhance every property’s natural appeal."
-- Subheading updated to:
-  "Explore a selection of interiors styled by Interiors by Borg. From empty properties needing warmth and personality to lived-in homes prepared for sale, each space is thoughtfully styled to highlight its best features, create emotional connection, and leave a lasting impression."
+- Heading and subheading updated.
 
 PORTFOLIO IMAGES
 1. Interior styling → Warm neutral living
@@ -18,6 +14,10 @@ PORTFOLIO IMAGES
 3. Property presentation → Calm main bedroom
 4. Developer project → Bathroom fit-out styling
 5. Selections → Layered material palette
+
+CONTACT
+- Replaces the image shown under the Contact menu with:
+  /images/contact/contact-page-image.webp
 
 Files included:
 - src/App.jsx
@@ -28,6 +28,7 @@ Files included:
 - public/images/portfolio/calm-main-bedroom.webp
 - public/images/portfolio/bathroom-fitout-styling.jpg
 - public/images/portfolio/selections-layered-material-palette.webp
+- public/images/contact/contact-page-image.webp
 
 How to use:
 1. Download this ZIP.
