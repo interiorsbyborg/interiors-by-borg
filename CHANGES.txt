@@ -1,0 +1,6 @@
+Updated portfolio card image mappings in src/App.jsx and App.jsx:
+- Warm neutral living -> /images/portfolio/warm-neutral-living.webp
+- Coastal dining refresh -> /images/portfolio/coastal-dining-refresh.webp
+- Calm main bedroom -> /images/portfolio/calm-main-bedroom.webp
+- Bathroom fit-out styling -> /images/portfolio/bathroom-fitout-styling.webp
+- Layered material palette -> /images/portfolio/selections-layered-material-palette.webp
