@@ -2,13 +2,6 @@ INTERIORS BY BORG – HOME + PORTFOLIO + CONTACT + ABOUT UPDATE PACKAGE
 
 This package updates:
 
-HOME CARD TEXT
-- Updates the three card section under the Home menu to:
-  1. Property-ready presentation
-  2. Signature style, adaptable vision
-  3. Refined, liveable spaces
-
-
 ABOUT ELISE
 - Removes the in-store consultation image from the About Elise page only.
 - The same image is still kept for the Portfolio header image, as requested previously.
@@ -47,3 +40,8 @@ Important:
 CONTACT FORM NOTE REMOVED
 - Removed this sentence from the Contact form:
   "When submitted, this form opens the visitor’s email app with the enquiry addressed to interiorsbyborg@gmail.com."
+
+
+HOME TEXT UPDATE
+- Under Home → Property-ready presentation, the body text now reads:
+  "A tailored approach that balances visual appeal, functionality and budget-conscious decision-making"

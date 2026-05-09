@@ -176,15 +176,15 @@ function HomePage({ setPage }) {
           {[
             {
               title: "Property-ready presentation",
-              text: "We create polished, market-ready spaces that feel inviting from the moment buyers walk through the door. Every styling decision is considered, from furniture placement and colour palette to lighting, flow and focal points, helping each room photograph beautifully and leave a lasting impression.",
+              text: "A tailored approach that balances visual appeal, functionality and budget-conscious decision-making",
             },
             {
-              title: "Signature style, adaptable vision",
-              text: "Our preferred style leans into modern coastal warmth — relaxed, refined and grounded in natural textures, soft neutrals and effortless comfort. While this is our signature direction, we are highly adaptable and also love the calm simplicity of Japandi design and the playful character of mid-century modern pieces.",
+              title: "Modern coastal warmth",
+              text: "A tailored approach that balances visual appeal, functionality and budget-conscious decision-making.",
             },
             {
               title: "Refined, liveable spaces",
-              text: "We focus on creating interiors that are elegant, practical and easy to imagine living in. By combining thoughtful styling with functional layouts and carefully selected pieces, each space feels elevated while still remaining comfortable, approachable and realistic for everyday life.",
+              text: "A tailored approach that balances visual appeal, functionality and budget-conscious decision-making.",
             },
           ].map((item) => (
             <div key={item.title} className="rounded-3xl border border-stone-200 bg-[#faf8f5] p-7">
