@@ -317,7 +317,6 @@ function AboutPage({ setPage }) {
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
             <img className="h-96 w-full rounded-[2rem] object-cover object-center" src={images.portraitPlaceholder} alt="Elise Borg, founder of Interiors By Borg" />
             <img className="h-96 w-full rounded-[2rem] object-cover" src={images.aboutInHome} alt="In-home interior design consultation" />
-            <img className="h-96 w-full rounded-[2rem] object-cover" src={images.aboutInStore} alt="Interior materials and styling consultation" />
           </div>
           <div className="rounded-[2rem] bg-white p-8 shadow-sm md:p-12">
             <p className="mb-4 text-xs uppercase tracking-[0.32em] text-stone-500">Founder & stylist</p>
