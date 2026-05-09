@@ -1,55 +1,20 @@
-# Interiors By Borg Website
+# Selections — Layered Material Palette
 
-A simple React/Vite website for Interiors By Borg.
+Website image package for the **Selections** section, headline: **Layered material palette**.
 
-## Preview locally
+## Recommended alt text
+Layered palette of natural interior design materials including marble tile, woven textiles, wood, stone samples, and botanical accents.
 
-1. Install Node.js.
-2. Open this folder in VS Code or Terminal.
-3. Run:
+## Included
+- Responsive WebP image variants for desktop, tablet, mobile, and thumbnail use
+- JPEG fallback
+- Original source image
+- `section-snippet.html` with responsive `<picture>` markup
+- `section-styles.css` starter styles
+- `manifest.json` with file details
 
-```bash
-npm install
-npm run dev
-```
+## Suggested primary file
+`assets/selections-layered-material-palette-hero-1200.webp`
 
-4. Open the local link shown in Terminal.
-
-## Deploy to Vercel
-
-1. Create a free GitHub account if you do not have one.
-2. Create a new GitHub repository and upload these files.
-3. Go to Vercel, choose "New Project", import the GitHub repository, and deploy.
-4. Vercel should detect Vite automatically.
-   - Build command: `npm run build`
-   - Output directory: `dist`
-
-## Deploy to Netlify
-
-1. Create a free GitHub repository and upload these files.
-2. Go to Netlify, choose "Add new site" then "Import an existing project".
-3. Select the GitHub repository.
-4. Use:
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-
-## Custom domain
-
-Suggested domain:
-- interiorsbyborg.com.au
-
-Possible alternatives:
-- interiorsbyborg.au
-- interiorsbyborg.com
-- interiorsbyborginteriors.com.au
-- borginteriors.com.au
-
-Replace the placeholder email `hello@interiorsbyborg.com.au` once your domain/email is set up.
-Replace the placeholder images with your own project images before final launch.
-
-
-## Latest content updates
-
-- Contact email updated to interiorsbyborg@gmail.com.
-- Elise Borg portrait added at public/elise-borg.jpg.
-- ABN added: 19 001 690 402.
+## Notes
+Replace `/assets/` in the HTML snippet with the final path used by the website/CMS.

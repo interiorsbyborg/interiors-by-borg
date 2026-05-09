@@ -1,0 +1,50 @@
+{
+  "section": "Selections",
+  "headline": "Layered material palette",
+  "alt_text": "Layered palette of natural interior design materials including marble tile, woven textiles, wood, stone samples, and botanical accents.",
+  "source_file": "O_WShopify_DESIGN-SERVICES_1_1024x1024.webp",
+  "files": [
+    {
+      "file": "assets/selections-layered-material-palette-hero-1600.webp",
+      "dimensions": "1600x1200",
+      "format": "WEBP",
+      "bytes": 349072
+    },
+    {
+      "file": "assets/selections-layered-material-palette-hero-1200.webp",
+      "dimensions": "1200x900",
+      "format": "WEBP",
+      "bytes": 251316
+    },
+    {
+      "file": "assets/selections-layered-material-palette-hero-800.webp",
+      "dimensions": "800x600",
+      "format": "WEBP",
+      "bytes": 129112
+    },
+    {
+      "file": "assets/selections-layered-material-palette-mobile-900.webp",
+      "dimensions": "900x1200",
+      "format": "WEBP",
+      "bytes": 182482
+    },
+    {
+      "file": "assets/selections-layered-material-palette-thumb-600.webp",
+      "dimensions": "600x600",
+      "format": "WEBP",
+      "bytes": 91796
+    },
+    {
+      "file": "assets/selections-layered-material-palette-hero-1200.jpg",
+      "dimensions": "1200x900",
+      "format": "JPEG",
+      "bytes": 301649
+    },
+    {
+      "file": "assets/source-original.webp",
+      "dimensions": "1024x768",
+      "format": "WEBP",
+      "bytes": 233014
+    }
+  ]
+}
