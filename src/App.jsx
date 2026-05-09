@@ -358,15 +358,34 @@ function ContactPage() {
             </div>
             <img src={images.portraitPlaceholder} alt="Elise Borg, founder of Interiors By Borg" className="mt-10 h-80 w-full rounded-[2rem] object-cover object-center" />
           </div>
-          <form className="rounded-[2rem] bg-white p-7 shadow-sm md:p-10" onSubmit={(e) => e.preventDefault()}>
+          <form className="rounded-[2rem] bg-white p-7 shadow-sm md:p-10" aria-label="Interiors By Borg website enquiry form" onSubmit={(e) => {
+            e.preventDefault();
+            const form = e.currentTarget;
+            const name = form.elements.namedItem('name')?.value || '';
+            const email = form.elements.namedItem('email')?.value || '';
+            const service = form.elements.namedItem('service')?.value || '';
+            const message = form.elements.namedItem('message')?.value || '';
+            if (!name || !email || !message) {
+              alert('Please add your name, email and message before sending.');
+              return;
+            }
+            const subject = encodeURIComponent(`Website enquiry from ${name || 'Interiors By Borg website'}`);
+            const body = encodeURIComponent(`Name: ${name}
+Email: ${email}
+Service: ${service}
+
+Message:
+${message}`);
+            window.location.href = `mailto:interiorsbyborg@gmail.com?subject=${subject}&body=${body}`;
+          }}>
             <div className="grid gap-5 md:grid-cols-2">
-              <label className="block"><span className="text-sm text-stone-600">Name</span><input className="mt-2 w-full rounded-2xl border border-stone-200 bg-[#faf8f5] px-4 py-3 outline-none focus:border-stone-500" placeholder="Your name" /></label>
-              <label className="block"><span className="text-sm text-stone-600">Email</span><input className="mt-2 w-full rounded-2xl border border-stone-200 bg-[#faf8f5] px-4 py-3 outline-none focus:border-stone-500" placeholder="you@email.com" /></label>
+              <label className="block"><span className="text-sm text-stone-600">Name</span><input name="name" className="mt-2 w-full rounded-2xl border border-stone-200 bg-[#faf8f5] px-4 py-3 outline-none focus:border-stone-500" placeholder="Your name" required /></label>
+              <label className="block"><span className="text-sm text-stone-600">Email</span><input name="email" type="email" className="mt-2 w-full rounded-2xl border border-stone-200 bg-[#faf8f5] px-4 py-3 outline-none focus:border-stone-500" placeholder="you@email.com" required /></label>
             </div>
-            <label className="mt-5 block"><span className="text-sm text-stone-600">Service</span><select className="mt-2 w-full rounded-2xl border border-stone-200 bg-[#faf8f5] px-4 py-3 outline-none focus:border-stone-500"><option>Property staging</option><option>Interior styling</option><option>Refresh consultation</option><option>Pre-sale presentation</option></select></label>
-            <label className="mt-5 block"><span className="text-sm text-stone-600">Message</span><textarea className="mt-2 min-h-40 w-full rounded-2xl border border-stone-200 bg-[#faf8f5] px-4 py-3 outline-none focus:border-stone-500" placeholder="Tell us about the property, timeline and what you would like help with." /></label>
-            <button className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-stone-950 px-5 py-4 text-sm font-medium text-white hover:bg-stone-800">Send enquiry <ArrowRight size={16} /></button>
-            <p className="mt-4 text-sm leading-6 text-stone-500">Form is a visual placeholder. Connect it to Squarespace, Wix, Netlify Forms or your preferred email service before launch.</p>
+            <label className="mt-5 block"><span className="text-sm text-stone-600">Service</span><select name="service" className="mt-2 w-full rounded-2xl border border-stone-200 bg-[#faf8f5] px-4 py-3 outline-none focus:border-stone-500"><option>Property staging</option><option>Interior styling</option><option>Refresh consultation</option><option>Pre-sale presentation</option></select></label>
+            <label className="mt-5 block"><span className="text-sm text-stone-600">Message</span><textarea name="message" className="mt-2 min-h-40 w-full rounded-2xl border border-stone-200 bg-[#faf8f5] px-4 py-3 outline-none focus:border-stone-500" placeholder="Tell us about the property, timeline and what you would like help with." required /></label>
+            <button type="submit" className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-stone-950 px-5 py-4 text-sm font-medium text-white hover:bg-stone-800">Send enquiry <ArrowRight size={16} /></button>
+            <p className="mt-4 text-sm leading-6 text-stone-500">When submitted, this form opens the visitor’s email app with the enquiry addressed to interiorsbyborg@gmail.com.</p>
           </form>
         </div>
       </section>
