@@ -1,58 +1,49 @@
-# Interiors By Borg — Portfolio image update package
+INTERIORS BY BORG — PORTFOLIO IMAGE UPDATE PACKAGE
 
-This package updates the Portfolio card:
+This package updates three Portfolio cards:
 
-- Type: `Home styling`
-- Title: `Coastal dining refresh`
-- New image: `public/images/portfolio/coastal-dining-refresh.webp`
+1. Portfolio → Selections → Layered material palette
+   New image path: /images/portfolio/selections-layered-material-palette.webp
 
-It also keeps the previous Portfolio → Selections fix included:
+2. Portfolio → Home styling → Coastal dining refresh
+   New image path: /images/portfolio/coastal-dining-refresh.webp
 
-- Type: `Selections`
-- Title: `Layered material palette`
-- Image: `public/images/portfolio/selections-layered-material-palette.webp`
+3. Portfolio → Property presentation → Calm main bedroom
+   New image path: /images/portfolio/calm-main-bedroom.webp
 
-## Upload instructions for GitHub
+FILES INCLUDED
 
-1. Download and unzip this package.
-2. In GitHub, open your website repository.
-3. Upload the **unzipped contents** into the repository root.
-4. Let GitHub replace the existing files when it asks.
-5. Commit the changes.
-6. Wait for the site to publish/redeploy.
-7. Hard-refresh the website:
-   - Mac: `Cmd + Shift + R`
-   - Windows: `Ctrl + F5`
+- src/App.jsx
+- App.jsx
+- public/images/portfolio/selections-layered-material-palette.webp
+- public/images/portfolio/coastal-dining-refresh.webp
+- public/images/portfolio/calm-main-bedroom.webp
+- CHANGES.patch
+- README_FIRST.txt
 
-## Files included
+HOW TO UPLOAD TO GITHUB
 
-```txt
-src/App.jsx
-App.jsx
-public/images/portfolio/coastal-dining-refresh.webp
+1. Download this ZIP.
+2. Unzip it on your computer.
+3. Open your GitHub repository.
+4. Upload the UNZIPPED files/folders into the repository root.
+5. Allow GitHub to replace the existing App.jsx files when prompted.
+6. Commit the changes.
+7. Wait for the site to publish/redeploy.
+8. Hard refresh the website.
+
+IMPORTANT
+
+Do not upload the ZIP file itself to GitHub. Upload the unzipped contents.
+
+The image files must end up exactly here:
+
 public/images/portfolio/selections-layered-material-palette.webp
-CHANGES.patch
-README_FIRST.txt
-```
+public/images/portfolio/coastal-dining-refresh.webp
+public/images/portfolio/calm-main-bedroom.webp
 
-## Code change made
+The site should reference them in code as:
 
-The Portfolio item changed from:
-
-```jsx
-{ title: "Coastal dining refresh", type: "Home styling", image: images.dining }
-```
-
-to:
-
-```jsx
-{ title: "Coastal dining refresh", type: "Home styling", image: images.coastalDiningRefresh }
-```
-
-and the new image is referenced as:
-
-```jsx
-coastalDiningRefresh: "/images/portfolio/coastal-dining-refresh.webp"
-```
-
-Do **not** upload this ZIP file itself to GitHub. Upload the unzipped files/folders.
+/images/portfolio/selections-layered-material-palette.webp
+/images/portfolio/coastal-dining-refresh.webp
+/images/portfolio/calm-main-bedroom.webp

@@ -1,32 +1,186 @@
---- src/App.jsx (before)
-+++ src/App.jsx (after)
-@@ -6,6 +6,7 @@
-   hero: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
+diff -ruN /mnt/data/interiors-by-borg-portfolio-coastal-dining-fix/App.jsx /mnt/data/interiors-by-borg-portfolio-image-updates/App.jsx
+--- /mnt/data/interiors-by-borg-portfolio-coastal-dining-fix/App.jsx	2026-05-09 11:28:35.089581980 +0000
++++ /mnt/data/interiors-by-borg-portfolio-image-updates/App.jsx	2026-05-09 11:35:02.087680078 +0000
+@@ -7,6 +7,7 @@
    lounge: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
    dining: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85",
-+  coastalDiningRefresh: "/images/portfolio/coastal-dining-refresh.webp",
+   coastalDiningRefresh: "/images/portfolio/coastal-dining-refresh.webp",
++  calmMainBedroom: "/images/portfolio/calm-main-bedroom.webp",
    bedroom: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85",
    kitchen: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
    bathroom: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=85",
-@@ -18,6 +19,7 @@
-   aboutInStore: "/about-in-store-consultation.webp",
-   servicesFeature: "/services-feature-living.webp",
-   portfolioKitchen: "/portfolio-clean-kitchen-details.webp",
-+  materialPalette: "/images/portfolio/selections-layered-material-palette.webp",
- };
- 
- const nav = [
-@@ -53,11 +55,11 @@
- 
+@@ -51,7 +52,7 @@
  const portfolio = [
    { title: "Warm neutral living", type: "Interior styling", image: images.lounge },
--  { title: "Coastal dining refresh", type: "Home styling", image: images.dining },
-+  { title: "Coastal dining refresh", type: "Home styling", image: images.coastalDiningRefresh },
-   { title: "Calm main bedroom", type: "Property presentation", image: images.bedroom },
+   { title: "Coastal dining refresh", type: "Home styling", image: images.coastalDiningRefresh },
+-  { title: "Calm main bedroom", type: "Property presentation", image: images.bedroom },
++  { title: "Calm main bedroom", type: "Property presentation", image: images.calmMainBedroom },
+   { title: "Clean kitchen details", type: "Styling direction", image: images.kitchen },
+   { title: "Bathroom fit-out styling", type: "Developer project", image: images.bathroom },
+   { title: "Layered material palette", type: "Selections", image: images.materialPalette },
+diff -ruN /mnt/data/interiors-by-borg-portfolio-coastal-dining-fix/CHANGES.patch /mnt/data/interiors-by-borg-portfolio-image-updates/CHANGES.patch
+--- /mnt/data/interiors-by-borg-portfolio-coastal-dining-fix/CHANGES.patch	2026-05-09 11:28:35.093920164 +0000
++++ /mnt/data/interiors-by-borg-portfolio-image-updates/CHANGES.patch	2026-05-09 11:35:02.211686975 +0000
+@@ -1,32 +1,20 @@
+---- src/App.jsx (before)
+-+++ src/App.jsx (after)
+-@@ -6,6 +6,7 @@
+-   hero: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
++diff -ruN /mnt/data/interiors-by-borg-portfolio-coastal-dining-fix/App.jsx /mnt/data/interiors-by-borg-portfolio-image-updates/App.jsx
++--- /mnt/data/interiors-by-borg-portfolio-coastal-dining-fix/App.jsx	2026-05-09 11:28:35.089581980 +0000
+++++ /mnt/data/interiors-by-borg-portfolio-image-updates/App.jsx	2026-05-09 11:35:02.087680078 +0000
++@@ -7,6 +7,7 @@
+    lounge: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
+    dining: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85",
+-+  coastalDiningRefresh: "/images/portfolio/coastal-dining-refresh.webp",
++   coastalDiningRefresh: "/images/portfolio/coastal-dining-refresh.webp",
+++  calmMainBedroom: "/images/portfolio/calm-main-bedroom.webp",
+    bedroom: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85",
+    kitchen: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
+    bathroom: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=85",
+-@@ -18,6 +19,7 @@
+-   aboutInStore: "/about-in-store-consultation.webp",
+-   servicesFeature: "/services-feature-living.webp",
+-   portfolioKitchen: "/portfolio-clean-kitchen-details.webp",
+-+  materialPalette: "/images/portfolio/selections-layered-material-palette.webp",
+- };
+- 
+- const nav = [
+-@@ -53,11 +55,11 @@
+- 
++@@ -51,7 +52,7 @@
+  const portfolio = [
+    { title: "Warm neutral living", type: "Interior styling", image: images.lounge },
+--  { title: "Coastal dining refresh", type: "Home styling", image: images.dining },
+-+  { title: "Coastal dining refresh", type: "Home styling", image: images.coastalDiningRefresh },
+-   { title: "Calm main bedroom", type: "Property presentation", image: images.bedroom },
+-   { title: "Clean kitchen details", type: "Styling direction", image: images.portfolioKitchen },
++   { title: "Coastal dining refresh", type: "Home styling", image: images.coastalDiningRefresh },
++-  { title: "Calm main bedroom", type: "Property presentation", image: images.bedroom },
+++  { title: "Calm main bedroom", type: "Property presentation", image: images.calmMainBedroom },
++   { title: "Clean kitchen details", type: "Styling direction", image: images.kitchen },
+    { title: "Bathroom fit-out styling", type: "Developer project", image: images.bathroom },
+--  { title: "Layered material palette", type: "Selections", image: images.texture },
+-+  { title: "Layered material palette", type: "Selections", image: images.materialPalette },
+- ];
+- 
+- function Header({ page, setPage }) {
++   { title: "Layered material palette", type: "Selections", image: images.materialPalette },
+diff -ruN /mnt/data/interiors-by-borg-portfolio-coastal-dining-fix/README_FIRST.txt /mnt/data/interiors-by-borg-portfolio-image-updates/README_FIRST.txt
+--- /mnt/data/interiors-by-borg-portfolio-coastal-dining-fix/README_FIRST.txt	2026-05-09 11:28:35.093979782 +0000
++++ /mnt/data/interiors-by-borg-portfolio-image-updates/README_FIRST.txt	2026-05-09 11:35:02.087969782 +0000
+@@ -1,58 +1,49 @@
+-# Interiors By Borg — Portfolio image update package
++INTERIORS BY BORG — PORTFOLIO IMAGE UPDATE PACKAGE
+ 
+-This package updates the Portfolio card:
++This package updates three Portfolio cards:
+ 
+-- Type: `Home styling`
+-- Title: `Coastal dining refresh`
+-- New image: `public/images/portfolio/coastal-dining-refresh.webp`
++1. Portfolio → Selections → Layered material palette
++   New image path: /images/portfolio/selections-layered-material-palette.webp
+ 
+-It also keeps the previous Portfolio → Selections fix included:
++2. Portfolio → Home styling → Coastal dining refresh
++   New image path: /images/portfolio/coastal-dining-refresh.webp
+ 
+-- Type: `Selections`
+-- Title: `Layered material palette`
+-- Image: `public/images/portfolio/selections-layered-material-palette.webp`
++3. Portfolio → Property presentation → Calm main bedroom
++   New image path: /images/portfolio/calm-main-bedroom.webp
+ 
+-## Upload instructions for GitHub
++FILES INCLUDED
+ 
+-1. Download and unzip this package.
+-2. In GitHub, open your website repository.
+-3. Upload the **unzipped contents** into the repository root.
+-4. Let GitHub replace the existing files when it asks.
+-5. Commit the changes.
+-6. Wait for the site to publish/redeploy.
+-7. Hard-refresh the website:
+-   - Mac: `Cmd + Shift + R`
+-   - Windows: `Ctrl + F5`
++- src/App.jsx
++- App.jsx
++- public/images/portfolio/selections-layered-material-palette.webp
++- public/images/portfolio/coastal-dining-refresh.webp
++- public/images/portfolio/calm-main-bedroom.webp
++- CHANGES.patch
++- README_FIRST.txt
+ 
+-## Files included
++HOW TO UPLOAD TO GITHUB
+ 
+-```txt
+-src/App.jsx
+-App.jsx
+-public/images/portfolio/coastal-dining-refresh.webp
+-public/images/portfolio/selections-layered-material-palette.webp
+-CHANGES.patch
+-README_FIRST.txt
+-```
+-
+-## Code change made
++1. Download this ZIP.
++2. Unzip it on your computer.
++3. Open your GitHub repository.
++4. Upload the UNZIPPED files/folders into the repository root.
++5. Allow GitHub to replace the existing App.jsx files when prompted.
++6. Commit the changes.
++7. Wait for the site to publish/redeploy.
++8. Hard refresh the website.
+ 
+-The Portfolio item changed from:
++IMPORTANT
+ 
+-```jsx
+-{ title: "Coastal dining refresh", type: "Home styling", image: images.dining }
+-```
++Do not upload the ZIP file itself to GitHub. Upload the unzipped contents.
+ 
+-to:
++The image files must end up exactly here:
+ 
+-```jsx
+-{ title: "Coastal dining refresh", type: "Home styling", image: images.coastalDiningRefresh }
+-```
+-
+-and the new image is referenced as:
++public/images/portfolio/selections-layered-material-palette.webp
++public/images/portfolio/coastal-dining-refresh.webp
++public/images/portfolio/calm-main-bedroom.webp
+ 
+-```jsx
+-coastalDiningRefresh: "/images/portfolio/coastal-dining-refresh.webp"
+-```
++The site should reference them in code as:
+ 
+-Do **not** upload this ZIP file itself to GitHub. Upload the unzipped files/folders.
++/images/portfolio/selections-layered-material-palette.webp
++/images/portfolio/coastal-dining-refresh.webp
++/images/portfolio/calm-main-bedroom.webp
+Binary files /mnt/data/interiors-by-borg-portfolio-coastal-dining-fix/public/images/portfolio/calm-main-bedroom.webp and /mnt/data/interiors-by-borg-portfolio-image-updates/public/images/portfolio/calm-main-bedroom.webp differ
+diff -ruN /mnt/data/interiors-by-borg-portfolio-coastal-dining-fix/src/App.jsx /mnt/data/interiors-by-borg-portfolio-image-updates/src/App.jsx
+--- /mnt/data/interiors-by-borg-portfolio-coastal-dining-fix/src/App.jsx	2026-05-09 11:28:35.089027495 +0000
++++ /mnt/data/interiors-by-borg-portfolio-image-updates/src/App.jsx	2026-05-09 11:35:02.087278499 +0000
+@@ -7,6 +7,7 @@
+   lounge: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
+   dining: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85",
+   coastalDiningRefresh: "/images/portfolio/coastal-dining-refresh.webp",
++  calmMainBedroom: "/images/portfolio/calm-main-bedroom.webp",
+   bedroom: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85",
+   kitchen: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
+   bathroom: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=85",
+@@ -56,7 +57,7 @@
+ const portfolio = [
+   { title: "Warm neutral living", type: "Interior styling", image: images.lounge },
+   { title: "Coastal dining refresh", type: "Home styling", image: images.coastalDiningRefresh },
+-  { title: "Calm main bedroom", type: "Property presentation", image: images.bedroom },
++  { title: "Calm main bedroom", type: "Property presentation", image: images.calmMainBedroom },
    { title: "Clean kitchen details", type: "Styling direction", image: images.portfolioKitchen },
    { title: "Bathroom fit-out styling", type: "Developer project", image: images.bathroom },
--  { title: "Layered material palette", type: "Selections", image: images.texture },
-+  { title: "Layered material palette", type: "Selections", image: images.materialPalette },
- ];
- 
- function Header({ page, setPage }) {
+   { title: "Layered material palette", type: "Selections", image: images.materialPalette },
