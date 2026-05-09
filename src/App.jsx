@@ -18,6 +18,7 @@ const images = {
   aboutInStore: "/about-in-store-consultation.webp",
   servicesFeature: "/services-feature-living.webp",
   portfolioKitchen: "/portfolio-clean-kitchen-details.webp",
+  materialPalette: "/images/portfolio/selections-layered-material-palette.webp",
 };
 
 const nav = [
@@ -57,7 +58,7 @@ const portfolio = [
   { title: "Calm main bedroom", type: "Property presentation", image: images.bedroom },
   { title: "Clean kitchen details", type: "Styling direction", image: images.portfolioKitchen },
   { title: "Bathroom fit-out styling", type: "Developer project", image: images.bathroom },
-  { title: "Layered material palette", type: "Selections", image: images.texture },
+  { title: "Layered material palette", type: "Selections", image: images.materialPalette },
 ];
 
 function Header({ page, setPage }) {

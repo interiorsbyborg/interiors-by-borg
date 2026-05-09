@@ -1,41 +1,36 @@
-Portfolio image replacement package — FIX V2
+Portfolio Selections image fix
 
-Target: Portfolio section > Layered material palette
-New image: layered-material-palette.webp
-Fallback image: layered-material-palette.jpg
-Alt text: Layered material palette
-Original dimensions: 1024 × 768
+What this package changes
+- Adds the new material palette image here:
+  public/images/portfolio/selections-layered-material-palette.webp
+- Updates the Portfolio > Selections tile in:
+  src/App.jsx
+- Also includes App.jsx updated as a backup, because your ZIP contained a duplicate root App.jsx.
 
-Why this v2 package is different:
-- No nested wrapper folder. The files are at the ZIP root.
-- Includes JPG and PNG fallbacks in case your website builder rejects WebP.
-- Includes an automatic patch script for source-code projects.
+Why the previous attempts did not show on the website
+The Portfolio tile was still using this old image value:
+  image: images.texture
+That points to an Unsplash water/texture image. This package changes only the Portfolio card titled "Layered material palette" to use:
+  image: images.materialPalette
+and defines that as:
+  /images/portfolio/selections-layered-material-palette.webp
 
-Fastest manual fix:
-1. Upload layered-material-palette.jpg to your website CMS/media library.
-2. Open the Portfolio section.
-3. Find the card/project titled “Layered material palette”.
-4. Replace only that card’s existing image with layered-material-palette.jpg.
-5. Save/publish and hard-refresh the page.
+GitHub website upload steps
+1. Open your GitHub repository.
+2. Upload/replace these files at the same paths shown in this package:
+   - src/App.jsx
+   - App.jsx
+   - public/images/portfolio/selections-layered-material-palette.webp
+3. Commit the changes.
+4. Wait for your site to rebuild/publish.
+5. Hard-refresh the website. On Mac: Cmd + Shift + R. On Windows: Ctrl + F5.
 
-For Next.js / React / static sites:
-1. Copy layered-material-palette.webp to public/images/portfolio/.
-2. Update the image path for the Layered material palette portfolio item to:
-   /images/portfolio/layered-material-palette.webp
-3. Use layered-material-palette.jpg as the fallback if needed.
+Important
+Do not upload this ZIP as one file into the repo. Unzip it first, then upload the files/folders inside it so the paths stay the same.
 
-Automatic source-code fix:
-1. Unzip this package into the root of your website project.
-2. Run: python apply_portfolio_image_update.py
-3. Review the changed file(s), then deploy.
+Sanity check
+After upload, GitHub should show this line in src/App.jsx:
+  materialPalette: "/images/portfolio/selections-layered-material-palette.webp",
 
-For Shopify themes:
-1. Upload layered-material-palette.jpg into Online Store > Themes > Edit code > Assets.
-2. In the portfolio item/section for “Layered material palette”, set the image to:
-   {{ 'layered-material-palette.jpg' | asset_url }}
-3. Or use the snippet in shopify-liquid-replacement.liquid.
-
-If it still does not change on the live site:
-- Clear the site/CDN cache.
-- Make sure the correct environment was published, not only previewed.
-- Search the source for “Layered material palette” and check if the image is controlled by CMS data rather than source code.
+And the Layered material palette portfolio item should show:
+  image: images.materialPalette

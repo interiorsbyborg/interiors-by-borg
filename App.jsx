@@ -10,6 +10,7 @@ const images = {
   kitchen: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
   bathroom: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=85",
   texture: "https://images.unsplash.com/photo-1615529328331-f8917597711f?auto=format&fit=crop&w=1200&q=85",
+  materialPalette: "/images/portfolio/selections-layered-material-palette.webp",
   details: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1200&q=85",
   staging: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
   portraitPlaceholder: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1000&q=85",
@@ -52,7 +53,7 @@ const portfolio = [
   { title: "Calm main bedroom", type: "Property presentation", image: images.bedroom },
   { title: "Clean kitchen details", type: "Styling direction", image: images.kitchen },
   { title: "Bathroom fit-out styling", type: "Developer project", image: images.bathroom },
-  { title: "Layered material palette", type: "Selections", image: images.texture },
+  { title: "Layered material palette", type: "Selections", image: images.materialPalette },
 ];
 
 function Header({ page, setPage }) {
