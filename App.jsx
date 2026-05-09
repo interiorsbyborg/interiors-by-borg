@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Home, Sparkles, Sofa, Camera, Mail, Menu, X, ArrowRight, Check, MapPin } from "lucide-react";
 
 const images = {
-  hero: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
+  hero: "/images/home/home-soft-neutrals-practical-styling-first-impressions.jpg",
   lounge: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
   dining: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85",
   bedroom: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85",
