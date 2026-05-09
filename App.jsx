@@ -278,7 +278,7 @@ function Process({ setPage }) {
 function PortfolioPage() {
   return (
     <main className="bg-[#f7f3ee]">
-      <PageHero eyebrow="Portfolio" title="A glimpse into our styling work — refined, welcoming interiors designed to enhance every property’s natural appeal." text="Explore a selection of interiors styled by Interiors by Borg. From empty properties needing warmth and personality to lived-in homes prepared for sale, each space is thoughtfully styled to highlight its best features, create emotional connection, and leave a lasting impression." image={images.dining} />
+      <PageHero eyebrow="Portfolio" title="A glimpse into our styling work — refined, welcoming interiors designed to enhance every property’s natural appeal." text="Explore a selection of interiors styled by Interiors by Borg. From empty properties needing warmth and personality to lived-in homes prepared for sale, each space is thoughtfully styled to highlight its best features, create emotional connection, and leave a lasting impression." image={images.portfolioHeaderImage} />
       <section className="px-5 py-16 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-2 lg:grid-cols-3">
           {portfolio.map((item) => (

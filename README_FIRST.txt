@@ -5,10 +5,12 @@ This package updates:
 HOME
 - Hero image under the text: "Soft neutrals. Practical styling. Beautiful first impressions."
 
-PORTFOLIO TEXT
+PORTFOLIO
 - Heading and subheading updated.
+- Header image next to the Portfolio heading/subheading updated to:
+  /images/portfolio/portfolio-header-image.webp
 
-PORTFOLIO IMAGES
+PORTFOLIO CARDS
 1. Interior styling → Warm neutral living
 2. Home styling → Coastal dining refresh
 3. Property presentation → Calm main bedroom
@@ -23,6 +25,7 @@ Files included:
 - src/App.jsx
 - App.jsx
 - public/images/home/home-soft-neutrals-practical-styling-first-impressions.jpg
+- public/images/portfolio/portfolio-header-image.webp
 - public/images/portfolio/warm-neutral-living.webp
 - public/images/portfolio/coastal-dining-refresh.webp
 - public/images/portfolio/calm-main-bedroom.webp
