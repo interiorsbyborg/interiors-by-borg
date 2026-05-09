@@ -13,6 +13,9 @@ const images = {
   details: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1200&q=85",
   staging: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
   portraitPlaceholder: "/elise-borg.jpg",
+  aboutInHome: "/about-in-home-consultation.webp",
+  aboutInStore: "/about-in-store-consultation.webp",
+  servicesFeature: "/services-feature-living.webp",
 };
 
 const nav = [
@@ -222,7 +225,7 @@ function ImageMosaic() {
 function ServicesPage({ setPage }) {
   return (
     <main className="bg-[#f7f3ee]">
-      <PageHero eyebrow="Services" title="A considered styling service, scaled to the job." text="Choose a light-touch consultation, a room refresh, or a full property staging package designed around the home, audience and budget." image={images.lounge} />
+      <PageHero eyebrow="Services" title="A considered styling service, scaled to the job." text="Choose a light-touch consultation, a room refresh, or a full property staging package designed around the home, audience and budget." image={images.servicesFeature} />
       <section className="px-5 py-16 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-2">
           {services.map((service) => {
@@ -304,7 +307,8 @@ function AboutPage({ setPage }) {
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">
             <img className="h-96 w-full rounded-[2rem] object-cover object-center" src={images.portraitPlaceholder} alt="Elise Borg, founder of Interiors By Borg" />
-            <img className="h-96 w-full rounded-[2rem] object-cover" src={images.texture} alt="Neutral material palette" />
+            <img className="h-96 w-full rounded-[2rem] object-cover" src={images.aboutInHome} alt="In-home interior design consultation" />
+            <img className="h-96 w-full rounded-[2rem] object-cover" src={images.aboutInStore} alt="Interior materials and styling consultation" />
           </div>
           <div className="rounded-[2rem] bg-white p-8 shadow-sm md:p-12">
             <p className="mb-4 text-xs uppercase tracking-[0.32em] text-stone-500">Founder & stylist</p>
