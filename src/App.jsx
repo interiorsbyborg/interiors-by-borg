@@ -21,7 +21,7 @@ const images = {
   portfolioWarmNeutralLiving: "/images/portfolio/warm-neutral-living.webp",
   portfolioCoastalDiningRefresh: "/images/portfolio/coastal-dining-refresh.webp",
   portfolioCalmMainBedroom: "/images/portfolio/calm-main-bedroom.webp",
-  portfolioBathroomFitoutStyling: "/images/portfolio/bathroom-fitout-styling.webp",
+  portfolioBathroomFitoutStyling: "/images/portfolio/bathroom-fitout-styling.jpg",
   portfolioLayeredMaterialPalette: "/images/portfolio/selections-layered-material-palette.webp",
 };
 
