@@ -1,20 +1,24 @@
 INTERIORS BY BORG — PORTFOLIO IMAGE UPDATE PACKAGE
 
-This package updates three Portfolio cards:
+This package updates four Portfolio cards:
 
-1. Portfolio → Selections → Layered material palette
+1. Portfolio → Interior styling → Warm neutral living
+   New image path: /images/portfolio/warm-neutral-living.webp
+
+2. Portfolio → Selections → Layered material palette
    New image path: /images/portfolio/selections-layered-material-palette.webp
 
-2. Portfolio → Home styling → Coastal dining refresh
+3. Portfolio → Home styling → Coastal dining refresh
    New image path: /images/portfolio/coastal-dining-refresh.webp
 
-3. Portfolio → Property presentation → Calm main bedroom
+4. Portfolio → Property presentation → Calm main bedroom
    New image path: /images/portfolio/calm-main-bedroom.webp
 
 FILES INCLUDED
 
 - src/App.jsx
 - App.jsx
+- public/images/portfolio/warm-neutral-living.webp
 - public/images/portfolio/selections-layered-material-palette.webp
 - public/images/portfolio/coastal-dining-refresh.webp
 - public/images/portfolio/calm-main-bedroom.webp
@@ -38,12 +42,14 @@ Do not upload the ZIP file itself to GitHub. Upload the unzipped contents.
 
 The image files must end up exactly here:
 
+public/images/portfolio/warm-neutral-living.webp
 public/images/portfolio/selections-layered-material-palette.webp
 public/images/portfolio/coastal-dining-refresh.webp
 public/images/portfolio/calm-main-bedroom.webp
 
 The site should reference them in code as:
 
+/images/portfolio/warm-neutral-living.webp
 /images/portfolio/selections-layered-material-palette.webp
 /images/portfolio/coastal-dining-refresh.webp
 /images/portfolio/calm-main-bedroom.webp

@@ -5,6 +5,7 @@ import { Home, Sparkles, Sofa, Camera, Mail, Menu, X, ArrowRight, Check, MapPin 
 const images = {
   hero: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
   lounge: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
+  warmNeutralLiving: "/images/portfolio/warm-neutral-living.webp",
   dining: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85",
   coastalDiningRefresh: "/images/portfolio/coastal-dining-refresh.webp",
   calmMainBedroom: "/images/portfolio/calm-main-bedroom.webp",
@@ -55,7 +56,7 @@ const services = [
 ];
 
 const portfolio = [
-  { title: "Warm neutral living", type: "Interior styling", image: images.lounge },
+  { title: "Warm neutral living", type: "Interior styling", image: images.warmNeutralLiving },
   { title: "Coastal dining refresh", type: "Home styling", image: images.coastalDiningRefresh },
   { title: "Calm main bedroom", type: "Property presentation", image: images.calmMainBedroom },
   { title: "Clean kitchen details", type: "Styling direction", image: images.portfolioKitchen },
