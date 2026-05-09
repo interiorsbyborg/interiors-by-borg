@@ -13,6 +13,7 @@ const images = {
   details: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=1200&q=85",
   staging: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85",
   portraitPlaceholder: "/elise-borg.jpg",
+  aboutHeroReplacement: "/about-elise-hero-replacement.jpg",
   aboutInHome: "/about-in-home-consultation.webp",
   aboutInStore: "/about-in-store-consultation.webp",
   servicesFeature: "/services-feature-living.webp",
@@ -303,7 +304,7 @@ function PortfolioPage() {
 function AboutPage({ setPage }) {
   return (
     <main className="bg-[#f7f3ee]">
-      <PageHero eyebrow="About Elise Borg" title="Interior styling with a practical eye, a warm finish and a calm sense of order." text="Elise brings together a love of homes, renovation detail and beautiful, functional spaces through Interiors By Borg." image={images.portraitPlaceholder} />
+      <PageHero eyebrow="About Elise Borg" title="Interior styling with a practical eye, a warm finish and a calm sense of order." text="Elise brings together a love of homes, renovation detail and beautiful, functional spaces through Interiors By Borg." image={images.aboutHeroReplacement} />
       <section className="px-5 py-16 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1">

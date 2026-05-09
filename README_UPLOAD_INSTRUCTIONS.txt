@@ -1,8 +1,6 @@
-Upload these folders to your GitHub repo using Add file → Upload files:
+Upload these folders/files to your GitHub repo using Add file > Upload files:
 
-- src
-- public
+1. src
+2. public
 
-This update changes the Portfolio item "Clean kitchen details" to use the attached black kitchen image.
-
-After upload, click Commit changes. Vercel should automatically redeploy.
+This update changes the top About Elise image to the new styling image, while keeping Elise's portrait only once next to the 'Meet Elise' section.
