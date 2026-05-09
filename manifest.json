@@ -1,61 +1,14 @@
 {
-  "update": "Portfolio image replacement",
-  "portfolioItemTitle": "Layered material palette",
-  "primaryAsset": "public/images/portfolio/layered-material-palette.webp",
-  "recommendedPublicPath": "/images/portfolio/layered-material-palette.webp",
-  "recommendedAltText": "Layered material palette with neutral stone, marble, woven textiles, timber, and circular tile samples.",
-  "primaryDimensions": {
-    "width": 1024,
-    "height": 768,
-    "aspectRatio": "4:3"
-  },
-  "notes": [
-    "Use the primary WebP for the Portfolio item image replacement.",
-    "Use the square variant only if the existing Portfolio card requires a 1:1 image crop.",
-    "JPG fallback is included for older or stricter CMS setups."
-  ],
-  "assets": [
-    {
-      "path": "public/images/portfolio/layered-material-palette-640.webp",
-      "sizeBytes": 93308,
-      "sha256": "8068ccd2c0e1fd53e64070e04a2c642ced136e50f5d29d5dc899807edf3df7c7",
-      "width": 640,
-      "height": 480
-    },
-    {
-      "path": "public/images/portfolio/layered-material-palette-800.webp",
-      "sizeBytes": 141910,
-      "sha256": "77e54603b99880652a2c46037d1718c51d78ce7f0138943b125db157dbbe05f1",
-      "width": 800,
-      "height": 600
-    },
-    {
-      "path": "public/images/portfolio/layered-material-palette-square.jpg",
-      "sizeBytes": 205305,
-      "sha256": "6f4ecc28516df54f0a0b3b2803b4d1fc0cfba719ca18dbd29fafbe9a5f0167f6",
-      "width": 768,
-      "height": 768
-    },
-    {
-      "path": "public/images/portfolio/layered-material-palette-square.webp",
-      "sizeBytes": 170434,
-      "sha256": "eef84c07732f43e5fabbcfb8bfe6f2ebe960694b2f95f301a69d0c63e2c5399f",
-      "width": 768,
-      "height": 768
-    },
-    {
-      "path": "public/images/portfolio/layered-material-palette.jpg",
-      "sizeBytes": 288295,
-      "sha256": "897831054e996b4a7210e51cedea83321cd9e83d1d229ebadd52c0c6f925576c",
-      "width": 1024,
-      "height": 768
-    },
-    {
-      "path": "public/images/portfolio/layered-material-palette.webp",
-      "sizeBytes": 233014,
-      "sha256": "b706be135aeba52ad78b5d553730e6a1f52381148d4ca75f0e1b7de197f5ff23",
-      "width": 1024,
-      "height": 768
-    }
+  "replacement": "Portfolio menu water image",
+  "new_image": "/images/portfolio/layered-material-palette.webp",
+  "alt_text": "Layered material palette",
+  "included_files": [
+    "public/images/portfolio/layered-material-palette.webp",
+    "public/images/portfolio/layered-material-palette.jpg",
+    "public/images/portfolio/layered-material-palette-card-crop.webp",
+    "preview/portfolio-menu-card-preview.png",
+    "snippets/portfolio-image-replacement.js",
+    "snippets/portfolio-image-replacement.html",
+    "README.md"
   ]
 }

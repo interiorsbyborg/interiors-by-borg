@@ -1,73 +1,83 @@
-# Portfolio image update — Layered material palette
+# Portfolio image replacement package
 
-This add-file package replaces the existing image for the Portfolio item titled **“Layered material palette”** with the supplied material-palette image.
+This package replaces the water image under the **Portfolio** menu with the attached layered material palette image.
 
-## Primary asset
+## Files to upload
 
-Use this as the new Portfolio image:
-
-```text
-/public/images/portfolio/layered-material-palette.webp
-```
-
-Recommended public URL/path after adding to a typical static or Next.js-style site:
+Upload the primary image asset:
 
 ```text
-/images/portfolio/layered-material-palette.webp
+public/images/portfolio/layered-material-palette.webp
 ```
 
-Recommended alt text:
+A JPG fallback is also included:
 
 ```text
-Layered material palette with neutral stone, marble, woven textiles, timber, and circular tile samples.
+public/images/portfolio/layered-material-palette.jpg
 ```
 
-## Files included
+An optional cropped version for tighter card/menu layouts is included:
 
 ```text
-public/images/portfolio/layered-material-palette.webp          Primary replacement image, 1024×768
-public/images/portfolio/layered-material-palette.jpg           JPG fallback, 1024×768
-public/images/portfolio/layered-material-palette-800.webp      Responsive variant, 800×600
-public/images/portfolio/layered-material-palette-640.webp      Responsive variant, 640×480
-public/images/portfolio/layered-material-palette-square.webp   1:1 crop for square cards only, 768×768
-public/images/portfolio/layered-material-palette-square.jpg    JPG square fallback, 768×768
-snippets/html-picture.html                                     Drop-in HTML picture snippet
-snippets/react-next-image.tsx                                  React / Next.js image snippet
-snippets/shopify-liquid.liquid                                 Shopify Liquid snippet
-snippets/portfolio-data-update.json                            Data-object replacement reference
-snippets/css-object-fit.css                                    Optional image-fit CSS
-manifest.json                                                  Asset manifest with dimensions and checksums
-source/                                                        Original uploaded WebP source file
+public/images/portfolio/layered-material-palette-card-crop.webp
 ```
 
-## Implementation notes
+## Code change
 
-1. Copy the `public/images/portfolio/` files into your website’s matching public/static image folder.
-2. Find the Portfolio entry where the title equals **“Layered material palette”**.
-3. Replace its current image path with:
+Find the Portfolio menu/card item that currently points to the water image and update its image source to:
 
 ```text
 /images/portfolio/layered-material-palette.webp
 ```
 
-4. Set/update the image alt text to:
+Use this alt text:
 
 ```text
-Layered material palette with neutral stone, marble, woven textiles, timber, and circular tile samples.
+Layered material palette
 ```
 
-5. Keep the full 4:3 image unless your Portfolio grid explicitly requires a square card. If it does, use:
+## Example JSX / React
 
-```text
-/images/portfolio/layered-material-palette-square.webp
+```jsx
+<img
+  src="/images/portfolio/layered-material-palette.webp"
+  alt="Layered material palette"
+  className="portfolio-card-image"
+/>
 ```
 
-## Common data update example
+## Example HTML
 
-```json
-{
-  "title": "Layered material palette",
-  "image": "/images/portfolio/layered-material-palette.webp",
-  "imageAlt": "Layered material palette with neutral stone, marble, woven textiles, timber, and circular tile samples."
+```html
+<img
+  src="/images/portfolio/layered-material-palette.webp"
+  alt="Layered material palette"
+  class="portfolio-card-image"
+/>
+```
+
+## Recommended CSS
+
+```css
+.portfolio-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
+```
+
+## Suggested commit message
+
+```text
+Replace Portfolio water image with layered material palette
+```
+
+## Preview
+
+A mockup preview is included at:
+
+```text
+preview/portfolio-menu-card-preview.png
 ```
