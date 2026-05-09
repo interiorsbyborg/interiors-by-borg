@@ -6,6 +6,7 @@ const images = {
   hero: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
   lounge: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
   dining: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85",
+  coastalDiningRefresh: "/images/portfolio/coastal-dining-refresh.webp",
   bedroom: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85",
   kitchen: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
   bathroom: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=85",
@@ -54,7 +55,7 @@ const services = [
 
 const portfolio = [
   { title: "Warm neutral living", type: "Interior styling", image: images.lounge },
-  { title: "Coastal dining refresh", type: "Home styling", image: images.dining },
+  { title: "Coastal dining refresh", type: "Home styling", image: images.coastalDiningRefresh },
   { title: "Calm main bedroom", type: "Property presentation", image: images.bedroom },
   { title: "Clean kitchen details", type: "Styling direction", image: images.portfolioKitchen },
   { title: "Bathroom fit-out styling", type: "Developer project", image: images.bathroom },
