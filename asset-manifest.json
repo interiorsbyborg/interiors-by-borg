@@ -1,0 +1,17 @@
+{
+  "package": "portfolio-layered-material-palette-fix-v2",
+  "targetSection": "Portfolio",
+  "targetItemTitle": "Layered material palette",
+  "replacementImage": "layered-material-palette.webp",
+  "fallbackImage": "layered-material-palette.jpg",
+  "altText": "Layered material palette",
+  "sourceDimensions": {
+    "width": 1024,
+    "height": 768
+  },
+  "notes": [
+    "This v2 package has no wrapping folder. Upload/extract the files directly.",
+    "Use layered-material-palette.jpg if your site builder does not accept WebP.",
+    "Use layered-material-palette-square.* only if the existing portfolio card requires a square crop."
+  ]
+}
