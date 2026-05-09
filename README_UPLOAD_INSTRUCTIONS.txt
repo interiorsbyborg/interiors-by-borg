@@ -1,13 +1,8 @@
-Interiors By Borg - GitHub add/replace files package
+Upload these folders to your GitHub repo using Add file → Upload files:
 
-1. Unzip this package.
-2. Open your GitHub repository: interiorsbyborg/interiors-by-borg
-3. Click Add file > Upload files.
-4. Drag the TWO folders from this unzipped package into GitHub:
-   - src
-   - public
-5. GitHub should show src/App.jsx as changed and the public images as added/replaced.
-6. Click Commit changes.
-7. Vercel will automatically redeploy.
+- src
+- public
 
-Do not upload this zip file itself.
+This update changes the Portfolio item "Clean kitchen details" to use the attached black kitchen image.
+
+After upload, click Commit changes. Vercel should automatically redeploy.
