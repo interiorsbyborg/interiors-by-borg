@@ -2,6 +2,13 @@ INTERIORS BY BORG – HOME + PORTFOLIO + CONTACT + ABOUT UPDATE PACKAGE
 
 This package updates:
 
+HOME CARD TEXT
+- Updates the three card section under the Home menu to:
+  1. Property-ready presentation
+  2. Signature style, adaptable vision
+  3. Refined, liveable spaces
+
+
 ABOUT ELISE
 - Removes the in-store consultation image from the About Elise page only.
 - The same image is still kept for the Portfolio header image, as requested previously.
