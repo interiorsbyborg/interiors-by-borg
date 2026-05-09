@@ -1,14 +1,38 @@
 {
-  "replacement": "Portfolio menu water image",
-  "new_image": "/images/portfolio/layered-material-palette.webp",
-  "alt_text": "Layered material palette",
-  "included_files": [
-    "public/images/portfolio/layered-material-palette.webp",
-    "public/images/portfolio/layered-material-palette.jpg",
-    "public/images/portfolio/layered-material-palette-card-crop.webp",
-    "preview/portfolio-menu-card-preview.png",
-    "snippets/portfolio-image-replacement.js",
-    "snippets/portfolio-image-replacement.html",
-    "README.md"
+  "task": "Replace Portfolio > Selections tile water image with layered material palette image",
+  "recommended_image_path": "/images/portfolio/selections-layered-material-palette.webp",
+  "files": [
+    {
+      "path": "public/images/portfolio/selections-layered-material-palette.webp",
+      "purpose": "recommended tile-ready image",
+      "dimensions": [
+        1024,
+        489
+      ]
+    },
+    {
+      "path": "public/images/portfolio/selections-layered-material-palette.jpg",
+      "purpose": "JPEG fallback",
+      "dimensions": [
+        1024,
+        489
+      ]
+    },
+    {
+      "path": "public/images/portfolio/selections-layered-material-palette-full.webp",
+      "purpose": "full source image",
+      "dimensions": [
+        1024,
+        768
+      ]
+    },
+    {
+      "path": "preview/selections-layered-material-palette-preview.jpg",
+      "purpose": "preview only",
+      "dimensions": [
+        1024,
+        489
+      ]
+    }
   ]
 }

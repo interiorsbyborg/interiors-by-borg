@@ -1,83 +1,38 @@
 # Portfolio image replacement package
 
-This package replaces the water image under the **Portfolio** menu with the attached layered material palette image.
+This package contains the replacement artwork for the **Portfolio → Selections** tile titled **Layered material palette**.
 
-## Files to upload
+## Files included
 
-Upload the primary image asset:
+- `public/images/portfolio/selections-layered-material-palette.webp` — tile-ready landscape crop, optimized for the current horizontal card image area.
+- `public/images/portfolio/selections-layered-material-palette.jpg` — JPEG fallback of the same tile-ready image.
+- `public/images/portfolio/selections-layered-material-palette-full.webp` — optimized full-frame source image, in case your site already crops images with CSS.
+- `preview/selections-layered-material-palette-preview.jpg` — quick visual preview of the tile-ready crop.
 
-```text
-public/images/portfolio/layered-material-palette.webp
+## GitHub upload steps
+
+1. In GitHub, open your website repository.
+2. Upload the `public/images/portfolio/` folder from this package, or upload the files into your existing portfolio image directory.
+3. Find the Portfolio menu data/component entry for the Selections tile.
+4. Replace the current water image path with:
+
+```js
+/images/portfolio/selections-layered-material-palette.webp
 ```
 
-A JPG fallback is also included:
+Typical entry after update:
 
-```text
-public/images/portfolio/layered-material-palette.jpg
-```
-
-An optional cropped version for tighter card/menu layouts is included:
-
-```text
-public/images/portfolio/layered-material-palette-card-crop.webp
-```
-
-## Code change
-
-Find the Portfolio menu/card item that currently points to the water image and update its image source to:
-
-```text
-/images/portfolio/layered-material-palette.webp
-```
-
-Use this alt text:
-
-```text
-Layered material palette
-```
-
-## Example JSX / React
-
-```jsx
-<img
-  src="/images/portfolio/layered-material-palette.webp"
-  alt="Layered material palette"
-  className="portfolio-card-image"
-/>
-```
-
-## Example HTML
-
-```html
-<img
-  src="/images/portfolio/layered-material-palette.webp"
-  alt="Layered material palette"
-  class="portfolio-card-image"
-/>
-```
-
-## Recommended CSS
-
-```css
-.portfolio-card-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
+```js
+{
+  eyebrow: "SELECTIONS",
+  title: "Layered material palette",
+  image: "/images/portfolio/selections-layered-material-palette.webp"
 }
 ```
 
-## Suggested commit message
+5. Commit with a message like: `Replace selections tile image`.
 
-```text
-Replace Portfolio water image with layered material palette
-```
+## Notes
 
-## Preview
-
-A mockup preview is included at:
-
-```text
-preview/portfolio-menu-card-preview.png
-```
+- If your project uses `/assets/...` instead of `/images/...`, keep the filename but place it in your existing image folder and update the path accordingly.
+- If your CSS already uses `object-fit: cover` for tile images, you can use `selections-layered-material-palette-full.webp` instead.
