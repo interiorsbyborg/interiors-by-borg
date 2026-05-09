@@ -1,11 +1,17 @@
-INTERIORS BY BORG – PORTFOLIO IMAGE UPDATE PACKAGE
+INTERIORS BY BORG – PORTFOLIO IMAGE + TEXT UPDATE PACKAGE
 
-This package updates these Portfolio cards:
+This package updates the Portfolio page heading/subheading and these Portfolio card images:
 1. Interior styling → Warm neutral living
 2. Home styling → Coastal dining refresh
 3. Property presentation → Calm main bedroom
 4. Developer project → Bathroom fit-out styling
 5. Selections → Layered material palette
+
+Portfolio heading text:
+"A glimpse into our styling work — refined, welcoming interiors designed to enhance every property’s natural appeal."
+
+Portfolio subheading text:
+"Explore a selection of interiors styled by Interiors by Borg. From empty properties needing warmth and personality to lived-in homes prepared for sale, each space is thoughtfully styled to highlight its best features, create emotional connection, and leave a lasting impression."
 
 Files included:
 - src/App.jsx
