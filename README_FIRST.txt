@@ -1,47 +1,22 @@
-INTERIORS BY BORG – HOME + PORTFOLIO + CONTACT + ABOUT UPDATE PACKAGE
+HOME PROPERTY-READY PRESENTATION TEXT FIX ONLY
 
-This package updates:
+This package only includes App.jsx and src/App.jsx.
 
-ABOUT ELISE
-- Removes the in-store consultation image from the About Elise page only.
-- The same image is still kept for the Portfolio header image, as requested previously.
+What it changes:
+Home menu > the first card titled "Property-ready presentation"
+Text becomes exactly:
+A tailored approach that balances visual appeal, functionality and budget-conscious decision-making
 
-HOME
-- Hero image under the text: "Soft neutrals. Practical styling. Beautiful first impressions."
-
-PORTFOLIO
-- Heading and subheading updated.
-- Header image next to the Portfolio heading/subheading updated.
-
-PORTFOLIO CARDS
-1. Interior styling → Warm neutral living
-2. Home styling → Coastal dining refresh
-3. Property presentation → Calm main bedroom
-4. Developer project → Bathroom fit-out styling
-5. Selections → Layered material palette
-
-CONTACT
-- Contact page image updated.
+Important note:
+The previous live text was almost identical. The visible change may only be that the final full stop is removed.
 
 How to use:
-1. Download this ZIP.
-2. Unzip it.
-3. Upload the unzipped contents into the root of your GitHub repo.
-4. Replace files when prompted.
-5. Commit the changes.
-6. Wait for the site to publish.
-7. Hard refresh the live site.
+1. Unzip this package.
+2. Upload BOTH files to your GitHub repository, replacing the existing files:
+   - App.jsx
+   - src/App.jsx
+3. Commit the changes.
+4. Wait for the deployment/publish step to finish.
+5. Hard refresh the page.
 
-Important:
-- Upload the UNZIPPED contents, not the ZIP file itself.
-- Keep the folder paths exactly as provided.
-
-
-CONTACT FORM NOTE REMOVED
-- Removed this sentence from the Contact form:
-  "When submitted, this form opens the visitor’s email app with the enquiry addressed to interiorsbyborg@gmail.com."
-
-
-HOME TEXT UPDATE
-- Under Home → Property-ready presentation, the body text now reads:
-  "A tailored approach that balances visual appeal, functionality and budget-conscious decision-making"
+If you still see the old text after this, the live site is not being rebuilt from these files or the files were uploaded into the wrong folder.

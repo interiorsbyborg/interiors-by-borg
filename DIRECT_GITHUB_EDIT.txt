@@ -1,0 +1,10 @@
+Search in src/App.jsx and App.jsx for:
+Property-ready presentation
+
+The first card should read:
+{
+  title: "Property-ready presentation",
+  text: "A tailored approach that balances visual appeal, functionality and budget-conscious decision-making",
+},
+
+The paragraph should render item.text, not the old shared hard-coded paragraph.
