@@ -1,17 +1,21 @@
-INTERIORS BY BORG – LOGO UPDATE PACKAGE (TRANSPARENT PNG)
+INTERIORS BY BORG – HOME BOTTOM IMAGE UPDATE PACKAGE
 
-This package replaces the visible Interiors By Borg logo with the new attached PNG everywhere the site logo appears in the shared branding areas.
-
-What changed:
-- Replaced the logo image with the new PNG.
-- Processed the PNG so the light background is transparent.
-- The transparent logo now sits on the website's existing page background colour.
-- Increased the logo display size by approximately 25% compared with the prior website logo size.
+This package updates the five images featured at the bottom of the Home page.
+They are replaced with the five newly provided images in this exact order:
+1. home-mosaic-1.webp
+2. home-mosaic-2.png
+3. home-mosaic-3.jpg
+4. home-mosaic-4.jpg
+5. home-mosaic-5.webp
 
 Included files:
 - src/App.jsx
 - App.jsx
-- public/images/branding/interiors-by-borg-logo.png
+- public/images/home/home-mosaic-1.webp
+- public/images/home/home-mosaic-2.png
+- public/images/home/home-mosaic-3.jpg
+- public/images/home/home-mosaic-4.jpg
+- public/images/home/home-mosaic-5.webp
 
 How to use:
 1. Download this ZIP.

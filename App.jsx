@@ -217,11 +217,11 @@ function ImageMosaic() {
   return (
     <section className="bg-white px-5 py-20 lg:px-8">
       <div className="mx-auto grid max-w-7xl gap-5 md:grid-cols-4 md:grid-rows-2">
-        <img className="h-72 w-full rounded-[2rem] object-cover md:col-span-2 md:row-span-2 md:h-full" src={images.staging} alt="Styled open plan living and kitchen" />
-        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.bedroom} alt="Styled neutral bedroom" />
-        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.details} alt="Interior details" />
-        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.kitchen} alt="Modern kitchen" />
-        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.bathroom} alt="Modern bathroom" />
+        <img className="h-72 w-full rounded-[2rem] object-cover md:col-span-2 md:row-span-2 md:h-full" src={images.homeMosaic1} alt="Children's bedroom styling" />
+        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.homeMosaic2} alt="Interior styling moodboard" />
+        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.homeMosaic3} alt="Styled console and entry vignette" />
+        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.homeMosaic4} alt="Styled living and dining space" />
+        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.homeMosaic5} alt="Soft neutral bedroom styling" />
       </div>
     </section>
   );
