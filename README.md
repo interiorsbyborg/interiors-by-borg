@@ -1,38 +1,36 @@
-# Portfolio image replacement package
+# Property Staging Website Update
 
-This package contains the replacement artwork for the **Portfolio → Selections** tile titled **Layered material palette**.
+This package contains the updated copy for the **Services** menu section under the heading **Property staging**.
+
+## Updated content
+
+Under **Property staging**, replace the existing package points with these three tick points:
+
+- ✓ Styling brief tailored to the property, buyer profile and sales goals
+- ✓ Room-by-room furniture, décor, art and soft furnishing direction
+- ✓ Practical staging recommendations that balance presentation, scale and budget
 
 ## Files included
 
-- `public/images/portfolio/selections-layered-material-palette.webp` — tile-ready landscape crop, optimized for the current horizontal card image area.
-- `public/images/portfolio/selections-layered-material-palette.jpg` — JPEG fallback of the same tile-ready image.
-- `public/images/portfolio/selections-layered-material-palette-full.webp` — optimized full-frame source image, in case your site already crops images with CSS.
-- `preview/selections-layered-material-palette-preview.jpg` — quick visual preview of the tile-ready crop.
+- `property-staging-section.html` — simple drop-in HTML version
+- `PropertyStagingPackage.jsx` — React / Next.js component version
+- `property-staging-content.json` — structured content for CMS or data-driven sites
+- `property-staging-copy.md` — plain Markdown copy
+- `CHANGELOG.md` — change summary
 
-## GitHub upload steps
+## Suggested GitHub upload steps
 
-1. In GitHub, open your website repository.
-2. Upload the `public/images/portfolio/` folder from this package, or upload the files into your existing portfolio image directory.
-3. Find the Portfolio menu data/component entry for the Selections tile.
-4. Replace the current water image path with:
+1. Open the website repository in GitHub.
+2. Find the file that controls the Services page/menu.
+3. Search for the heading: `Property staging`.
+4. Replace the existing package bullet/tick list with the updated three points.
+5. Commit the change with this message:
 
-```js
-/images/portfolio/selections-layered-material-palette.webp
+```txt
+Update Property staging package copy
 ```
-
-Typical entry after update:
-
-```js
-{
-  eyebrow: "SELECTIONS",
-  title: "Layered material palette",
-  image: "/images/portfolio/selections-layered-material-palette.webp"
-}
-```
-
-5. Commit with a message like: `Replace selections tile image`.
 
 ## Notes
 
-- If your project uses `/assets/...` instead of `/images/...`, keep the filename but place it in your existing image folder and update the path accordingly.
-- If your CSS already uses `object-fit: cover` for tile images, you can use `selections-layered-material-palette-full.webp` instead.
+This package is platform-neutral because the exact website framework/source files were not available here.
+Use the file version that best matches your site setup.
