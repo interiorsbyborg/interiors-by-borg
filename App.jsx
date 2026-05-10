@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Home, Sparkles, Sofa, Camera, Mail, Menu, X, ArrowRight, Check, MapPin } from "lucide-react";
 
 const images = {
+  logo: "/images/branding/interiors-by-borg-logo.png",
   hero: "/images/home/home-soft-neutrals-practical-styling-first-impressions.jpg",
   lounge: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
   dining: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85",
@@ -66,14 +67,8 @@ function Header({ page, setPage }) {
   return (
     <header className="sticky top-0 z-50 border-b border-stone-200/70 bg-[#f7f3ee]/90 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
-        <button onClick={() => go("home")} className="group flex items-center gap-3 text-left">
-          <div className="grid h-11 w-11 place-items-center rounded-2xl border border-stone-300 bg-white shadow-sm">
-            <span className="font-serif text-xl tracking-tight text-stone-900">IB</span>
-          </div>
-          <div>
-            <p className="font-serif text-xl tracking-wide text-stone-950">Interiors By Borg</p>
-            <p className="text-xs uppercase tracking-[0.28em] text-stone-500">Styling · Staging · Selections</p>
-          </div>
+        <button onClick={() => go("home")} className="group flex items-center text-left">
+          <img src={images.logo} alt="Interiors By Borg" className="h-16 w-auto object-contain" />
         </button>
 
         <nav className="hidden items-center gap-1 md:flex">
