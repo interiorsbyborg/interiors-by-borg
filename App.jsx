@@ -164,10 +164,10 @@ function HomePage({ setPage }) {
           {[
             {
               title: "Property-ready presentation",
-              text: "A tailored approach that balances visual appeal, functionality and budget-conscious decision-making",
+              text: "We create polished, market-ready spaces that feel inviting from the moment buyers walk through the door. Every styling decision is considered, from furniture placement and colour palette to lighting, flow and focal points, helping each room photograph beautifully and leave a lasting impression.",
             },
             {
-              title: "Modern coastal warmth",
+              title: "Signature style, adaptable vision",
               text: "A tailored approach that balances visual appeal, functionality and budget-conscious decision-making.",
             },
             {

@@ -1,22 +1,30 @@
-HOME PROPERTY-READY PRESENTATION TEXT FIX ONLY
+INTERIORS BY BORG – HOME SECTION TEXT UPDATE PACKAGE
 
-This package only includes App.jsx and src/App.jsx.
+This package updates the Home page cards section.
 
-What it changes:
-Home menu > the first card titled "Property-ready presentation"
-Text becomes exactly:
-A tailored approach that balances visual appeal, functionality and budget-conscious decision-making
+Changed under Home:
 
-Important note:
-The previous live text was almost identical. The visible change may only be that the final full stop is removed.
+1. Heading kept as:
+   Property-ready presentation
+
+   Text replaced with:
+   We create polished, market-ready spaces that feel inviting from the moment buyers walk through the door. Every styling decision is considered, from furniture placement and colour palette to lighting, flow and focal points, helping each room photograph beautifully and leave a lasting impression.
+
+2. Heading replaced:
+   Modern coastal warmth
+
+   New heading:
+   Signature style, adaptable vision
 
 How to use:
-1. Unzip this package.
-2. Upload BOTH files to your GitHub repository, replacing the existing files:
-   - App.jsx
-   - src/App.jsx
-3. Commit the changes.
-4. Wait for the deployment/publish step to finish.
-5. Hard refresh the page.
+1. Download this ZIP.
+2. Unzip it.
+3. Upload the unzipped contents into the root of your GitHub repo.
+4. Replace files when prompted.
+5. Commit the changes.
+6. Wait for the site to publish.
+7. Hard refresh the live site.
 
-If you still see the old text after this, the live site is not being rebuilt from these files or the files were uploaded into the wrong folder.
+Important:
+- Upload the UNZIPPED contents, not the ZIP file itself.
+- Keep the folder paths exactly as provided.
