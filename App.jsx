@@ -68,7 +68,7 @@ function Header({ page, setPage }) {
     <header className="sticky top-0 z-50 border-b border-stone-200/70 bg-[#f7f3ee]/90 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
         <button onClick={() => go("home")} className="group flex items-center text-left">
-          <img src={images.logo} alt="Interiors By Borg" className="h-12 w-auto object-contain md:h-14" />
+          <img src={images.logo} alt="Interiors By Borg" className="h-20 w-auto object-contain" />
         </button>
 
         <nav className="hidden items-center gap-1 md:flex">

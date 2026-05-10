@@ -80,7 +80,7 @@ function Header({ page, setPage }) {
     <header className="sticky top-0 z-50 border-b border-stone-200/70 bg-[#f7f3ee]/90 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
         <button onClick={() => go("home")} className="group flex items-center text-left">
-          <img src={images.logo} alt="Interiors By Borg" className="h-12 w-auto object-contain md:h-14" />
+          <img src={images.logo} alt="Interiors By Borg" className="h-20 w-auto object-contain" />
         </button>
 
         <nav className="hidden items-center gap-1 md:flex">
@@ -439,7 +439,7 @@ function Footer({ setPage }) {
     <footer className="bg-[#f7f3ee] px-5 py-12 lg:px-8">
       <div className="mx-auto flex max-w-7xl flex-col justify-between gap-8 border-t border-stone-200 pt-10 md:flex-row md:items-end">
         <div>
-          <img src={images.logo} alt="Interiors By Borg" className="h-16 w-auto object-contain md:h-20" />
+          <img src={images.logo} alt="Interiors By Borg" className="h-[6.25rem] w-auto object-contain" />
           <p className="mt-2 max-w-lg text-sm leading-6 text-stone-600">Boutique interior styling and property staging for warm, modern and market-ready spaces.</p>
           <p className="mt-2 text-sm text-stone-500">ABN 19 001 690 402</p>
         </div>

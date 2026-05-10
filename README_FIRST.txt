@@ -1,10 +1,12 @@
-INTERIORS BY BORG – PNG LOGO UPDATE PACKAGE
+INTERIORS BY BORG – LOGO UPDATE PACKAGE (TRANSPARENT PNG)
 
-This package replaces the visible Interiors By Borg logo with the newly attached PNG version everywhere the logo appears in the site branding areas.
+This package replaces the visible Interiors By Borg logo with the new attached PNG everywhere the site logo appears in the shared branding areas.
 
-Updated locations:
-- Header / top navigation brand logo
-- Footer brand logo
+What changed:
+- Replaced the logo image with the new PNG.
+- Processed the PNG so the light background is transparent.
+- The transparent logo now sits on the website's existing page background colour.
+- Increased the logo display size by approximately 25% compared with the prior website logo size.
 
 Included files:
 - src/App.jsx
