@@ -25,3 +25,7 @@ How to use:
 7. Hard refresh the live site.
 
 Important: upload the UNZIPPED contents, not the ZIP file itself.
+
+HOME SECTION TEXT UPDATE
+- Updated "Refined, liveable spaces" text to:
+  "We focus on creating interiors that are elegant, practical and easy to imagine living in. By combining thoughtful styling with functional layouts and carefully selected pieces, each space feels elevated while still remaining comfortable, approachable and realistic for everyday life."

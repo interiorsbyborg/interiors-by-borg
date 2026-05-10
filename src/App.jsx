@@ -184,7 +184,7 @@ function HomePage({ setPage }) {
             },
             {
               title: "Refined, liveable spaces",
-              text: "A tailored approach that balances visual appeal, functionality and budget-conscious decision-making.",
+              text: "We focus on creating interiors that are elegant, practical and easy to imagine living in. By combining thoughtful styling with functional layouts and carefully selected pieces, each space feels elevated while still remaining comfortable, approachable and realistic for everyday life.",
             },
           ].map((item) => (
             <div key={item.title} className="rounded-3xl border border-stone-200 bg-[#faf8f5] p-7">
