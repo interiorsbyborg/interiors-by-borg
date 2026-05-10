@@ -1,20 +1,19 @@
 INTERIORS BY BORG – HOME SECTION TEXT UPDATE PACKAGE
 
-This package updates the Home page cards section.
+This package updates the Home menu three-card section.
 
-Changed under Home:
+Updated text:
 
-1. Heading kept as:
-   Property-ready presentation
+1. Property-ready presentation
+"We create polished, market-ready spaces that feel inviting from the moment buyers walk through the door. Every styling decision is considered, from furniture placement and colour palette to lighting, flow and focal points, helping each room photograph beautifully and leave a lasting impression."
 
-   Text replaced with:
-   We create polished, market-ready spaces that feel inviting from the moment buyers walk through the door. Every styling decision is considered, from furniture placement and colour palette to lighting, flow and focal points, helping each room photograph beautifully and leave a lasting impression.
+2. Signature style, adaptable vision
+"Our preferred style leans into modern coastal warmth — relaxed, refined and grounded in natural textures, soft neutrals and effortless comfort. While this is our signature direction, we are highly adaptable and also love the calm simplicity of Japandi design and the playful character of mid-century modern pieces."
 
-2. Heading replaced:
-   Modern coastal warmth
-
-   New heading:
-   Signature style, adaptable vision
+Files included:
+- src/App.jsx
+- App.jsx
+- existing image assets already included in the package
 
 How to use:
 1. Download this ZIP.
@@ -25,6 +24,4 @@ How to use:
 6. Wait for the site to publish.
 7. Hard refresh the live site.
 
-Important:
-- Upload the UNZIPPED contents, not the ZIP file itself.
-- Keep the folder paths exactly as provided.
+Important: upload the UNZIPPED contents, not the ZIP file itself.

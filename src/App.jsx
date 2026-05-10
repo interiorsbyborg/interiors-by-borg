@@ -180,7 +180,7 @@ function HomePage({ setPage }) {
             },
             {
               title: "Signature style, adaptable vision",
-              text: "A tailored approach that balances visual appeal, functionality and budget-conscious decision-making.",
+              text: "Our preferred style leans into modern coastal warmth — relaxed, refined and grounded in natural textures, soft neutrals and effortless comfort. While this is our signature direction, we are highly adaptable and also love the calm simplicity of Japandi design and the playful character of mid-century modern pieces.",
             },
             {
               title: "Refined, liveable spaces",
