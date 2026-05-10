@@ -1,21 +1,16 @@
-INTERIORS BY BORG – HOME BOTTOM IMAGE UPDATE PACKAGE
+INTERIORS BY BORG – HOME HERO IMAGE UPDATE PACKAGE
 
-This package updates the five images featured at the bottom of the Home page.
-They are replaced with the five newly provided images in this exact order:
-1. home-mosaic-1.webp
-2. home-mosaic-2.png
-3. home-mosaic-3.jpg
-4. home-mosaic-4.jpg
-5. home-mosaic-5.webp
+This package updates the first image shown on the Home page (the hero image) and replaces it with the newly provided image.
+
+Updated image path:
+- /images/home/home-soft-neutrals-practical-styling-first-impressions.png
 
 Included files:
 - src/App.jsx
 - App.jsx
-- public/images/home/home-mosaic-1.webp
-- public/images/home/home-mosaic-2.png
-- public/images/home/home-mosaic-3.jpg
-- public/images/home/home-mosaic-4.jpg
-- public/images/home/home-mosaic-5.webp
+- public/images/home/home-soft-neutrals-practical-styling-first-impressions.png
+
+This package also keeps the previously bundled site updates already present in the package base.
 
 How to use:
 1. Download this ZIP.
