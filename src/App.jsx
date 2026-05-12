@@ -258,12 +258,22 @@ function ServicesPage({ setPage }) {
                   <div className="grid h-12 w-12 place-items-center rounded-2xl bg-[#eee7df]"><Icon size={22} /></div>
                   <h2 className="font-serif text-3xl text-stone-950">{service.title}</h2>
                 </div>
-                <p className="leading-7 text-stone-600">{service.text}</p>
-                <ul className="mt-6 space-y-3 text-stone-700">
-                  <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Initial styling brief and room-by-room priorities</li>
-                  <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Furniture, decor, art and soft furnishing direction</li>
-                  <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Practical recommendations to suit the property and budget</li>
-                </ul>
+                {service.title === "Property staging" ? (
+                  <ul className="space-y-3 text-stone-700">
+                    <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Styling brief tailored to the property, buyer profile and sales goals</li>
+                    <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Room-by-room furniture, décor, art and soft furnishing direction</li>
+                    <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Practical staging recommendations that balance presentation, scale and budget</li>
+                  </ul>
+                ) : (
+                  <>
+                    <p className="leading-7 text-stone-600">{service.text}</p>
+                    <ul className="mt-6 space-y-3 text-stone-700">
+                      <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Initial styling brief and room-by-room priorities</li>
+                      <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Furniture, decor, art and soft furnishing direction</li>
+                      <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Practical recommendations to suit the property and budget</li>
+                    </ul>
+                  </>
+                )}
               </div>
             );
           })}

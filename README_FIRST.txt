@@ -1,16 +1,15 @@
-INTERIORS BY BORG – HOME HERO IMAGE UPDATE PACKAGE
+INTERIORS BY BORG – SERVICES PROPERTY STAGING TEXT UPDATE
 
-This package updates the first image shown on the Home page (the hero image) and replaces it with the newly provided image.
+This package updates the Services menu under the subtitle heading "Property staging".
 
-Updated image path:
-- /images/home/home-soft-neutrals-practical-styling-first-impressions.png
+The text underneath "Property staging" is replaced with:
+- Styling brief tailored to the property, buyer profile and sales goals
+- Room-by-room furniture, décor, art and soft furnishing direction
+- Practical staging recommendations that balance presentation, scale and budget
 
 Included files:
 - src/App.jsx
 - App.jsx
-- public/images/home/home-soft-neutrals-practical-styling-first-impressions.png
-
-This package also keeps the previously bundled site updates already present in the package base.
 
 How to use:
 1. Download this ZIP.
