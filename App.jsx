@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 import { Home, Sparkles, Sofa, Camera, Mail, Menu, X, ArrowRight, Check, MapPin } from "lucide-react";
 
 const images = {
-  logo: "/images/branding/interiors-by-borg-logo.png",
-  hero: "/images/home/home-soft-neutrals-practical-styling-first-impressions.png",
+  hero: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85",
   lounge: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85",
   dining: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85",
   bedroom: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=85",
@@ -28,7 +27,13 @@ const services = [
   {
     icon: Home,
     title: "Property staging",
-    text: "Styled, market-ready spaces that help buyers understand the scale, flow and lifestyle potential of a home.",
+    text: "Property staging services tailored to each home and sales campaign.",
+  bullets: [
+      "Styling brief tailored to the property, buyer profile and sales goals",
+      "Room-by-room furniture, décor, art and soft furnishing direction, decor sourcing and selections",
+      "Practical staging recommendations that balance presentation, scale and budget",
+      "Coordination of delivery, installation, execution and bump out, where required",
+    ],
   },
   {
     icon: Sofa,
@@ -48,12 +53,12 @@ const services = [
 ];
 
 const portfolio = [
-  { title: "Warm neutral living", type: "Interior styling", image: images.portfolioWarmNeutralLiving },
-  { title: "Coastal dining refresh", type: "Home styling", image: images.portfolioCoastalDiningRefresh },
-  { title: "Calm main bedroom", type: "Property presentation", image: images.portfolioCalmMainBedroom },
-  { title: "Clean kitchen details", type: "Styling direction", image: images.portfolioKitchen },
-  { title: "Bathroom fit-out styling", type: "Developer project", image: images.portfolioBathroomFitoutStyling },
-  { title: "Layered material palette", type: "Selections", image: images.portfolioLayeredMaterialPalette },
+  { title: "Warm neutral living", type: "Interior styling", image: images.lounge },
+  { title: "Coastal dining refresh", type: "Home styling", image: images.dining },
+  { title: "Calm main bedroom", type: "Property presentation", image: images.bedroom },
+  { title: "Clean kitchen details", type: "Styling direction", image: images.kitchen },
+  { title: "Bathroom fit-out styling", type: "Developer project", image: images.bathroom },
+  { title: "Layered material palette", type: "Selections", image: images.texture },
 ];
 
 function Header({ page, setPage }) {
@@ -67,8 +72,14 @@ function Header({ page, setPage }) {
   return (
     <header className="sticky top-0 z-50 border-b border-stone-200/70 bg-[#f7f3ee]/90 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
-        <button onClick={() => go("home")} className="group flex items-center text-left">
-          <img src={images.logo} alt="Interiors By Borg" className="h-20 w-auto object-contain" />
+        <button onClick={() => go("home")} className="group flex items-center gap-3 text-left">
+          <div className="grid h-11 w-11 place-items-center rounded-2xl border border-stone-300 bg-white shadow-sm">
+            <span className="font-serif text-xl tracking-tight text-stone-900">IB</span>
+          </div>
+          <div>
+            <p className="font-serif text-xl tracking-wide text-stone-950">Interiors By Borg</p>
+            <p className="text-xs uppercase tracking-[0.28em] text-stone-500">Styling · Staging · Selections</p>
+          </div>
         </button>
 
         <nav className="hidden items-center gap-1 md:flex">
@@ -156,24 +167,11 @@ function HomePage({ setPage }) {
 
       <section className="bg-white px-5 py-16 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-5 md:grid-cols-3">
-          {[
-            {
-              title: "Property-ready presentation",
-              text: "We create polished, market-ready spaces that feel inviting from the moment buyers walk through the door. Every styling decision is considered, from furniture placement and colour palette to lighting, flow and focal points, helping each room photograph beautifully and leave a lasting impression.",
-            },
-            {
-              title: "Signature style, adaptable vision",
-              text: "Our preferred style leans into modern coastal warmth — relaxed, refined and grounded in natural textures, soft neutrals and effortless comfort. While this is our signature direction, we are highly adaptable and also love the calm simplicity of Japandi design and the playful character of mid-century modern pieces.",
-            },
-            {
-              title: "Refined, liveable spaces",
-              text: "We focus on creating interiors that are elegant, practical and easy to imagine living in. By combining thoughtful styling with functional layouts and carefully selected pieces, each space feels elevated while still remaining comfortable, approachable and realistic for everyday life.",
-            },
-          ].map((item) => (
-            <div key={item.title} className="rounded-3xl border border-stone-200 bg-[#faf8f5] p-7">
+          {["Property-ready presentation", "Modern coastal warmth", "Refined, liveable spaces"].map((item) => (
+            <div key={item} className="rounded-3xl border border-stone-200 bg-[#faf8f5] p-7">
               <Check className="mb-5 text-stone-700" size={22} />
-              <h3 className="font-serif text-2xl text-stone-950">{item.title}</h3>
-              <p className="mt-3 leading-7 text-stone-600">{item.text}</p>
+              <h3 className="font-serif text-2xl text-stone-950">{item}</h3>
+              <p className="mt-3 leading-7 text-stone-600">A tailored approach that balances visual appeal, functionality and budget-conscious decision-making.</p>
             </div>
           ))}
         </div>
@@ -217,11 +215,11 @@ function ImageMosaic() {
   return (
     <section className="bg-white px-5 py-20 lg:px-8">
       <div className="mx-auto grid max-w-7xl gap-5 md:grid-cols-4 md:grid-rows-2">
-        <img className="h-72 w-full rounded-[2rem] object-cover md:col-span-2 md:row-span-2 md:h-full" src={images.homeMosaic1} alt="Children's bedroom styling" />
-        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.homeMosaic2} alt="Interior styling moodboard" />
-        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.homeMosaic3} alt="Styled console and entry vignette" />
-        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.homeMosaic4} alt="Styled living and dining space" />
-        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.homeMosaic5} alt="Soft neutral bedroom styling" />
+        <img className="h-72 w-full rounded-[2rem] object-cover md:col-span-2 md:row-span-2 md:h-full" src={images.staging} alt="Styled open plan living and kitchen" />
+        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.bedroom} alt="Styled neutral bedroom" />
+        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.details} alt="Interior details" />
+        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.kitchen} alt="Modern kitchen" />
+        <img className="h-72 w-full rounded-[2rem] object-cover" src={images.bathroom} alt="Modern bathroom" />
       </div>
     </section>
   );
@@ -241,11 +239,11 @@ function ServicesPage({ setPage }) {
                   <div className="grid h-12 w-12 place-items-center rounded-2xl bg-[#eee7df]"><Icon size={22} /></div>
                   <h2 className="font-serif text-3xl text-stone-950">{service.title}</h2>
                 </div>
-                {service.title === "Property staging" ? (
-                  <ul className="space-y-3 text-stone-700">
-                    <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Styling brief tailored to the property, buyer profile and sales goals</li>
-                    <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Room-by-room furniture, décor, art and soft furnishing direction</li>
-                    <li className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> Practical staging recommendations that balance presentation, scale and budget</li>
+                {service.bullets ? (
+                  <ul className="mt-2 space-y-3 text-stone-700">
+                    {service.bullets.map((item) => (
+                      <li key={item} className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> {item}</li>
+                    ))}
                   </ul>
                 ) : (
                   <>
@@ -296,7 +294,7 @@ function Process({ setPage }) {
 function PortfolioPage() {
   return (
     <main className="bg-[#f7f3ee]">
-      <PageHero eyebrow="Portfolio" title="A glimpse into our styling work — refined, welcoming interiors designed to enhance every property’s natural appeal." text="Explore a selection of interiors styled by Interiors by Borg. From empty properties needing warmth and personality to lived-in homes prepared for sale, each space is thoughtfully styled to highlight its best features, create emotional connection, and leave a lasting impression." image={images.portfolioHeaderImage} />
+      <PageHero eyebrow="Portfolio" title="A soft, neutral portfolio designed to be replaced with your real projects." text="Use this section for before-and-after images, styling details, property staging projects, bathroom fit-outs, developer work and client testimonials." image={images.dining} />
       <section className="px-5 py-16 lg:px-8">
         <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-2 lg:grid-cols-3">
           {portfolio.map((item) => (

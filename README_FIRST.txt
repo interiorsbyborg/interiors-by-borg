@@ -1,15 +1,17 @@
 INTERIORS BY BORG – SERVICES PROPERTY STAGING TEXT UPDATE
 
-This package updates the Services menu under the subtitle heading "Property staging".
+This clean package updates the Services menu under:
+"Property staging"
 
-The text underneath "Property staging" is replaced with:
+The replacement text is shown as:
 - Styling brief tailored to the property, buyer profile and sales goals
-- Room-by-room furniture, décor, art and soft furnishing direction
+- Room-by-room furniture, décor, art and soft furnishing direction, decor sourcing and selections
 - Practical staging recommendations that balance presentation, scale and budget
+- Coordination of delivery, installation, execution and bump out, where required
 
 Included files:
-- src/App.jsx
 - App.jsx
+- src/App.jsx
 
 How to use:
 1. Download this ZIP.
