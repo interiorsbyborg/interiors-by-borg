@@ -1,0 +1,21 @@
+# Patch template
+
+# Because the actual GitHub repository file path is not available in this chat,
+# this is a search-and-replace patch template rather than a directly applicable git patch.
+
+SEARCH:
+Property staging
+
+REPLACE WITH:
+Property Staging & Pre-Sale Presentation
+
+Then replace only the bullet/points/list text directly under that package with:
+
+- Room-by-room styling advice to prepare the home for photography, inspections and launch campaigns
+- Tailored styling brief based on the property, buyer profile and sales goals
+- Furniture, décor, art and soft furnishing direction for each space
+- Décor sourcing and selection support
+- Practical staging recommendations that balance presentation, scale and budget
+- Coordination of delivery, installation, styling execution and bump out, where required
+
+Do not change pricing, styling, order, buttons, links, IDs, slugs, images, or any other fields.

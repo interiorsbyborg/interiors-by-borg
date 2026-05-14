@@ -1,36 +1,37 @@
-# Property Staging Website Update
+# GitHub Website Update Package
 
-This package contains the updated copy for the **Services** menu section under the heading **Property staging**.
+## Target area
+Website package under the **Services** menu.
 
-## Updated content
+## Update required
+Find the existing package currently titled:
 
-Under **Property staging**, replace the existing package points with these three tick points:
+`Property staging`
 
-- ✓ Styling brief tailored to the property, buyer profile and sales goals
-- ✓ Room-by-room furniture, décor, art and soft furnishing direction
-- ✓ Practical staging recommendations that balance presentation, scale and budget
+Update only the heading/title and the bullet/points text below it.
 
-## Files included
+## New heading/title
 
-- `property-staging-section.html` — simple drop-in HTML version
-- `PropertyStagingPackage.jsx` — React / Next.js component version
-- `property-staging-content.json` — structured content for CMS or data-driven sites
-- `property-staging-copy.md` — plain Markdown copy
-- `CHANGELOG.md` — change summary
+`Property Staging & Pre-Sale Presentation`
 
-## Suggested GitHub upload steps
+## New points
 
-1. Open the website repository in GitHub.
-2. Find the file that controls the Services page/menu.
-3. Search for the heading: `Property staging`.
-4. Replace the existing package bullet/tick list with the updated three points.
-5. Commit the change with this message:
+1. Room-by-room styling advice to prepare the home for photography, inspections and launch campaigns
+2. Tailored styling brief based on the property, buyer profile and sales goals
+3. Furniture, décor, art and soft furnishing direction for each space
+4. Décor sourcing and selection support
+5. Practical staging recommendations that balance presentation, scale and budget
+6. Coordination of delivery, installation, styling execution and bump out, where required
 
-```txt
-Update Property staging package copy
-```
-
-## Notes
-
-This package is platform-neutral because the exact website framework/source files were not available here.
-Use the file version that best matches your site setup.
+## Important instruction
+Retain all other aspects of the existing package unchanged, including but not limited to:
+- pricing
+- package order
+- buttons
+- links
+- images
+- icons
+- layout
+- styling
+- descriptions outside this bullet/points section
+- any IDs, slugs, metadata or routing fields
