@@ -1,22 +1,21 @@
-INTERIORS BY BORG – RESTORED CUMULATIVE UPDATE PACKAGE
+INTERIORS BY BORG – RESTORED CUMULATIVE SERVICES UPDATE PACKAGE
 
-This package restores the cumulative website updates from the previous packages and adds the latest Services → Property staging text update.
+This package keeps the restored cumulative website updates and updates the Services menu section.
 
-It includes the prior updates such as:
-- Home hero image update
-- Home bottom five image updates
-- Logo update with transparent PNG
-- Home section text updates
-- Portfolio image and text updates
-- Contact image/text updates
-- About Elise image removal update, where previously included in the cumulative package
-- Services → Property staging text update
+Updated heading:
+"Property Staging & Pre-Sale Presentation"
 
-Latest Services → Property staging text:
-- Styling brief tailored to the property, buyer profile and sales goals
-- Room-by-room furniture, décor, art and soft furnishing direction, decor sourcing and selections
+Updated points:
+- Room-by-room styling advice to prepare the home for photography, inspections and launch campaigns
+- Tailored styling brief based on the property, buyer profile and sales goals
+- Furniture, décor, art and soft furnishing direction for each space
+- Décor sourcing and selection support
 - Practical staging recommendations that balance presentation, scale and budget
-- Coordination of delivery, installation, execution and bump out, where required
+- Coordination of delivery, installation, styling execution and bump out, where required
+
+Also preserved:
+- Services → Interior styling update
+- Previous Home, Portfolio, Contact, About and logo/image updates from the restored cumulative package
 
 How to use:
 1. Download this ZIP.
@@ -29,4 +28,4 @@ How to use:
 
 Important:
 - Upload the UNZIPPED contents, not the ZIP file itself.
-- This package is cumulative, so it should restore the earlier changes that were overwritten by the reset package.
+- This package is cumulative, so it preserves the earlier restored changes.
