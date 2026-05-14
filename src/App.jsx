@@ -56,15 +56,12 @@ const services = [
     {
     icon: Sofa,
     title: "Interior Styling & Refresh Consultations",
-    text: "Interior styling and refresh consultations tailored to each home.",
+    text: "Soft furnishings, furniture, art, lighting and décor selections for homes that feel resolved, calm and considered.",
     bullets: [
-      "Room-by-room styling advice to refresh and elevate existing interiors",
-      "Tailored styling brief based on your home, lifestyle, aesthetic and goals",
-      "Guidance on furniture placement, décor, art, lighting, colour and soft furnishings",
-      "Recommendations to work with existing pieces, alongside new selections where needed",
-      "Décor, furniture and homewares sourcing to create a cohesive finished look",
-      "Practical styling direction that balances impact, functionality and budget",
-    ],
+      "Styling brief tailored to your home, lifestyle, aesthetic and budget",
+      "Room-by-room direction across furniture, décor, art, lighting and soft furnishings",
+      "Practical recommendations to enhance flow, comfort, cohesion and everyday function",
+    
   },
   {
     icon: Sparkles,

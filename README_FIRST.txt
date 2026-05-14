@@ -1,36 +1,21 @@
-INTERIORS BY BORG – FINAL CUMULATIVE WEBSITE PACKAGE
+INTERIORS BY BORG – RETAINED CUMULATIVE PACKAGE
 
-This package is cumulative and is intended to RETAIN the previously requested website updates from this thread.
+This package retains the prior cumulative website updates from this thread and updates the Services menu interior styling text.
 
-Included retained updates:
+Updated Services text:
+"Soft furnishings, furniture, art, lighting and décor selections for homes that feel resolved, calm and considered."
 
-SERVICES
-- Property staging text update
-- Interior Styling & Refresh Consultations heading update
-- Updated Interior Styling & Refresh Consultations bullet points
+- Styling brief tailored to your home, lifestyle, aesthetic and budget
+- Room-by-room direction across furniture, décor, art, lighting and soft furnishings
+- Practical recommendations to enhance flow, comfort, cohesion and everyday function
 
-HOME
-- Hero image update
-- Home section text updates
-- Bottom five image updates
-
-PORTFOLIO
-- Portfolio heading/subheading updates
-- Portfolio header image update
-- Portfolio tile image updates
-
-CONTACT
-- Contact image update
-- Removal of contact form helper sentence
-
-ABOUT ELISE
-- Removal of the requested image from the About Elise page
-
-BRANDING
-- Updated transparent PNG logo
-- Larger logo sizing across shared branding areas
-
-This package preserves the earlier cumulative changes while keeping the latest Services updates.
+This package retains previous cumulative updates including:
+- Services updates
+- Home image/text updates
+- Portfolio updates
+- Contact updates
+- About Elise update
+- Branding/logo updates
 
 How to use:
 1. Download this ZIP.
@@ -40,7 +25,3 @@ How to use:
 5. Commit the changes.
 6. Wait for the site to publish.
 7. Hard refresh the live site.
-
-Important:
-- Upload the UNZIPPED contents, not the ZIP file itself.
-- This package is cumulative and should preserve the previous requested updates.
