@@ -1,21 +1,17 @@
-INTERIORS BY BORG – RETAINED CUMULATIVE PACKAGE
+INTERIORS BY BORG – PROPERTY STAGING & PRE-SALE PRESENTATION UPDATE
 
-This package retains the prior cumulative website updates from this thread and updates the Services menu interior styling text.
+This package updates the Services menu card currently titled "Property staging".
 
-Updated Services text:
-"Soft furnishings, furniture, art, lighting and décor selections for homes that feel resolved, calm and considered."
+New heading:
+Property Staging & Pre-Sale Presentation
 
-- Styling brief tailored to your home, lifestyle, aesthetic and budget
-- Room-by-room direction across furniture, décor, art, lighting and soft furnishings
-- Practical recommendations to enhance flow, comfort, cohesion and everyday function
-
-This package retains previous cumulative updates including:
-- Services updates
-- Home image/text updates
-- Portfolio updates
-- Contact updates
-- About Elise update
-- Branding/logo updates
+New points:
+- Room-by-room styling advice to prepare the home for photography, inspections and launch campaigns
+- Tailored styling brief based on the property, buyer profile and sales goals
+- Furniture, décor, art and soft furnishing direction for each space
+- Décor sourcing and selection support
+- Practical staging recommendations that balance presentation, scale and budget
+- Coordination of delivery, installation, styling execution and bump out, where required
 
 How to use:
 1. Download this ZIP.
@@ -25,3 +21,7 @@ How to use:
 5. Commit the changes.
 6. Wait for the site to publish.
 7. Hard refresh the live site.
+
+Important:
+- Upload the UNZIPPED contents, not the ZIP file itself.
+- This package is based on the latest retained package available in this chat and only updates the Services property staging card.

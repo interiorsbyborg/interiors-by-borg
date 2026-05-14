@@ -42,18 +42,20 @@ const nav = [
 ];
 
 const services = [
-  {
+    {
     icon: Home,
-    title: "Property staging",
-    text: "Property staging services tailored to each home and sales campaign.",
-  bullets: [
-      "Styling brief tailored to the property, buyer profile and sales goals",
-      "Room-by-room furniture, décor, art and soft furnishing direction, decor sourcing and selections",
+    title: "Property Staging & Pre-Sale Presentation",
+    text: "Property staging and pre-sale presentation services tailored to each home and sales campaign.",
+    bullets: [
+      "Room-by-room styling advice to prepare the home for photography, inspections and launch campaigns",
+      "Tailored styling brief based on the property, buyer profile and sales goals",
+      "Furniture, décor, art and soft furnishing direction for each space",
+      "Décor sourcing and selection support",
       "Practical staging recommendations that balance presentation, scale and budget",
-      "Coordination of delivery, installation, execution and bump out, where required",
+      "Coordination of delivery, installation, styling execution and bump out, where required",
     ],
   },
-    {
+  {
     icon: Sofa,
     title: "Interior Styling & Refresh Consultations",
     text: "Soft furnishings, furniture, art, lighting and décor selections for homes that feel resolved, calm and considered.",
