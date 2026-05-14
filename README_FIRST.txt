@@ -1,22 +1,12 @@
-INTERIORS BY BORG – RESTORED CUMULATIVE UPDATE PACKAGE
+INTERIORS BY BORG – SERVICES COMBINED CARD FIX
 
-This package restores the cumulative website updates from the previous packages and adds the latest Services → Property staging text update.
+This package fixes the Services menu display for:
+Interior Styling & Refresh Consultations
 
-It includes the prior updates such as:
-- Home hero image update
-- Home bottom five image updates
-- Logo update with transparent PNG
-- Home section text updates
-- Portfolio image and text updates
-- Contact image/text updates
-- About Elise image removal update, where previously included in the cumulative package
-- Services → Property staging text update
-
-Latest Services → Property staging text:
-- Styling brief tailored to the property, buyer profile and sales goals
-- Room-by-room furniture, décor, art and soft furnishing direction, decor sourcing and selections
-- Practical staging recommendations that balance presentation, scale and budget
-- Coordination of delivery, installation, execution and bump out, where required
+What changed:
+- The intro sentence now displays above the bullet points.
+- The separate "Refresh consultations" card has been removed to avoid duplication.
+- The existing Property Staging & Pre-Sale Presentation update is retained.
 
 How to use:
 1. Download this ZIP.
@@ -29,4 +19,3 @@ How to use:
 
 Important:
 - Upload the UNZIPPED contents, not the ZIP file itself.
-- This package is cumulative, so it should restore the earlier changes that were overwritten by the reset package.

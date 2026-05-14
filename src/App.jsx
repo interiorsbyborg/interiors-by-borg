@@ -55,15 +55,19 @@ const services = [
       "Coordination of delivery, installation, styling execution and bump out, where required",
     ],
   },
-  {
+    {
     icon: Sofa,
-    title: "Interior styling",
-    text: "Soft furnishings, furniture, art, lighting and decor selections for homes that feel resolved, calm and considered.",
-  },
-  {
-    icon: Sparkles,
-    title: "Refresh consultations",
-    text: "Practical styling direction for owners who want to elevate existing spaces without starting from scratch.",
+    title: "Interior Styling & Refresh Consultations",
+    text: "Interior styling and refresh consultations tailored to each home.",
+    bullets: [
+      "Room-by-room styling advice to refresh and elevate existing interiors",
+      "Tailored styling brief based on your home, lifestyle, aesthetic and goals",
+      "Guidance on furniture placement, décor, art, lighting, colour and soft furnishings",
+      "Recommendations to work with existing pieces, alongside new selections where needed",
+      "Décor, furniture and homewares sourcing to create a cohesive finished look",
+      "Practical styling direction that balances impact, functionality and budget",
+    ],
+    showIntro: true,
   },
   {
     icon: Camera,
@@ -267,11 +271,14 @@ function ServicesPage({ setPage }) {
                   <h2 className="font-serif text-3xl text-stone-950">{service.title}</h2>
                 </div>
                 {service.bullets ? (
-                  <ul className="mt-2 space-y-3 text-stone-700">
-                    {service.bullets.map((item) => (
-                      <li key={item} className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> {item}</li>
-                    ))}
-                  </ul>
+                  <>
+                    {service.showIntro && <p className="leading-7 text-stone-600">{service.text}</p>}
+                    <ul className={`${service.showIntro ? "mt-6" : "mt-2"} space-y-3 text-stone-700`}>
+                      {service.bullets.map((item) => (
+                        <li key={item} className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> {item}</li>
+                      ))}
+                    </ul>
+                  </>
                 ) : (
                   <>
                     <p className="leading-7 text-stone-600">{service.text}</p>

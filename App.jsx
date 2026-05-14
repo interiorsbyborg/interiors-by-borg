@@ -50,11 +50,7 @@ const services = [
       "Décor, furniture and homewares sourcing to create a cohesive finished look",
       "Practical styling direction that balances impact, functionality and budget",
     ],
-  },
-  {
-    icon: Sparkles,
-    title: "Refresh consultations",
-    text: "Practical styling direction for owners who want to elevate existing spaces without starting from scratch.",
+    showIntro: true,
   },
   {
     icon: Camera,
@@ -258,11 +254,14 @@ function ServicesPage({ setPage }) {
                   <h2 className="font-serif text-3xl text-stone-950">{service.title}</h2>
                 </div>
                 {service.bullets ? (
-                  <ul className="mt-2 space-y-3 text-stone-700">
-                    {service.bullets.map((item) => (
-                      <li key={item} className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> {item}</li>
-                    ))}
-                  </ul>
+                  <>
+                    {service.showIntro && <p className="leading-7 text-stone-600">{service.text}</p>}
+                    <ul className={`${service.showIntro ? "mt-6" : "mt-2"} space-y-3 text-stone-700`}>
+                      {service.bullets.map((item) => (
+                        <li key={item} className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> {item}</li>
+                      ))}
+                    </ul>
+                  </>
                 ) : (
                   <>
                     <p className="leading-7 text-stone-600">{service.text}</p>
