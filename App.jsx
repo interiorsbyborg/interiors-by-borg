@@ -38,10 +38,18 @@ const services = [
       "Coordination of delivery, installation, styling execution and bump out, where required",
     ],
   },
-  {
+    {
     icon: Sofa,
-    title: "Interior styling",
-    text: "Soft furnishings, furniture, art, lighting and decor selections for homes that feel resolved, calm and considered.",
+    title: "Interior Styling & Refresh Consultations",
+    text: "Interior styling and refresh consultations tailored to each home.",
+    bullets: [
+      "Room-by-room styling advice to refresh and elevate existing interiors",
+      "Tailored styling brief based on your home, lifestyle, aesthetic and goals",
+      "Guidance on furniture placement, décor, art, lighting, colour and soft furnishings",
+      "Recommendations to work with existing pieces, alongside new selections where needed",
+      "Décor, furniture and homewares sourcing to create a cohesive finished look",
+      "Practical styling direction that balances impact, functionality and budget",
+    ],
   },
   {
     icon: Sparkles,
