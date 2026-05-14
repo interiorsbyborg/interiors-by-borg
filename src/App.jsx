@@ -45,7 +45,7 @@ const services = [
     {
     icon: Home,
     title: "Property Staging & Pre-Sale Presentation",
-    text: "Property staging and pre-sale presentation services tailored to each home and sales campaign.",
+    text: "Property staging and pre-sale presentation services tailored to each home and campaign.",
     bullets: [
       "Room-by-room styling advice to prepare the home for photography, inspections and launch campaigns",
       "Tailored styling brief based on the property, buyer profile and sales goals",
@@ -57,13 +57,8 @@ const services = [
   },
   {
     icon: Sofa,
-    title: "Interior Styling & Refresh Consultations",
-    text: "Soft furnishings, furniture, art, lighting and décor selections for homes that feel resolved, calm and considered.",
-    bullets: [
-      "Styling brief tailored to your home, lifestyle, aesthetic and budget",
-      "Room-by-room direction across furniture, décor, art, lighting and soft furnishings",
-      "Practical recommendations to enhance flow, comfort, cohesion and everyday function",
-    
+    title: "Interior styling",
+    text: "Soft furnishings, furniture, art, lighting and decor selections for homes that feel resolved, calm and considered.",
   },
   {
     icon: Sparkles,
@@ -272,14 +267,11 @@ function ServicesPage({ setPage }) {
                   <h2 className="font-serif text-3xl text-stone-950">{service.title}</h2>
                 </div>
                 {service.bullets ? (
-                  <>
-                    {service.showIntro && <p className="leading-7 text-stone-600">{service.text}</p>}
-                    <ul className={`${service.showIntro ? "mt-6" : "mt-2"} space-y-3 text-stone-700`}>
-                      {service.bullets.map((item) => (
-                        <li key={item} className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> {item}</li>
-                      ))}
-                    </ul>
-                  </>
+                  <ul className="mt-2 space-y-3 text-stone-700">
+                    {service.bullets.map((item) => (
+                      <li key={item} className="flex gap-3"><Check size={18} className="mt-1 shrink-0" /> {item}</li>
+                    ))}
+                  </ul>
                 ) : (
                   <>
                     <p className="leading-7 text-stone-600">{service.text}</p>
