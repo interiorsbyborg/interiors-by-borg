@@ -69,10 +69,19 @@ const services = [
     ],
     showIntro: true,
   },
-  {
+    {
     icon: Camera,
-    title: "Pre-sale presentation",
-    text: "Room-by-room styling advice to prepare a home for photography, inspections and launch campaigns.",
+    title: "Interior Design",
+    text: "Create a home that feels considered, functional and uniquely yours.",
+    bullets: [
+      "Consultation — We begin by understanding your vision, lifestyle and priorities.",
+      "Design Direction — We develop the overall look and feel, including colours, materials and finishes.",
+      "Spatial Planning — We refine layout, flow and functionality for everyday living.",
+      "Selections — We source furniture, lighting, fixtures, soft furnishings and styling pieces.",
+      "Refinement — We bring each detail together to create a cohesive, balanced interior.",
+      "Final Styling — We layer the finishing touches to complete the space with warmth and personality.",
+    ],
+    showIntro: true,
   },
 ];
 

@@ -1,12 +1,26 @@
-INTERIORS BY BORG – SERVICES COMBINED CARD FIX
+INTERIORS BY BORG – SERVICES INTERIOR DESIGN UPDATE
 
-This package fixes the Services menu display for:
-Interior Styling & Refresh Consultations
+This package updates the Services menu card previously titled:
+"Pre-sale presentation"
 
-What changed:
-- The intro sentence now displays above the bullet points.
-- The separate "Refresh consultations" card has been removed to avoid duplication.
-- The existing Property Staging & Pre-Sale Presentation update is retained.
+New heading:
+Interior Design
+
+New intro text:
+Create a home that feels considered, functional and uniquely yours.
+
+New points:
+- Consultation — We begin by understanding your vision, lifestyle and priorities.
+- Design Direction — We develop the overall look and feel, including colours, materials and finishes.
+- Spatial Planning — We refine layout, flow and functionality for everyday living.
+- Selections — We source furniture, lighting, fixtures, soft furnishings and styling pieces.
+- Refinement — We bring each detail together to create a cohesive, balanced interior.
+- Final Styling — We layer the finishing touches to complete the space with warmth and personality.
+
+Also retained:
+- Property Staging & Pre-Sale Presentation update
+- Interior Styling & Refresh Consultations update
+- Services combined-card fix
 
 How to use:
 1. Download this ZIP.
