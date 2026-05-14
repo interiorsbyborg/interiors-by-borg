@@ -1,21 +1,21 @@
 INTERIORS BY BORG – RESTORED CUMULATIVE SERVICES UPDATE PACKAGE
 
-This package keeps the restored cumulative website updates and updates the Services menu section.
+This package keeps the restored cumulative website updates and adds the latest Services menu change.
 
-Updated heading:
-"Property Staging & Pre-Sale Presentation"
+Updated Services heading:
+"Interior Styling & Refresh Consultations"
 
 Updated points:
-- Room-by-room styling advice to prepare the home for photography, inspections and launch campaigns
-- Tailored styling brief based on the property, buyer profile and sales goals
-- Furniture, décor, art and soft furnishing direction for each space
-- Décor sourcing and selection support
-- Practical staging recommendations that balance presentation, scale and budget
-- Coordination of delivery, installation, styling execution and bump out, where required
+- Room-by-room styling advice to refresh and elevate existing interiors
+- Tailored styling brief based on your home, lifestyle, aesthetic and goals
+- Guidance on furniture placement, décor, art, lighting, colour and soft furnishings
+- Recommendations to work with existing pieces, alongside new selections where needed
+- Décor, furniture and homewares sourcing to create a cohesive finished look
+- Practical styling direction that balances impact, functionality and budget
 
 Also preserved:
-- Services → Interior styling update
-- Previous Home, Portfolio, Contact, About and logo/image updates from the restored cumulative package
+- The prior Services → Property staging update
+- The previously restored Home, Portfolio, Contact, About and logo/image updates from the cumulative package
 
 How to use:
 1. Download this ZIP.

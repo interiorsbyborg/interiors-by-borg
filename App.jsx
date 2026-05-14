@@ -27,27 +27,27 @@ const nav = [
 const services = [
   {
     icon: Home,
-    title: "Property Staging & Pre-Sale Presentation",
-    text: "Property staging and pre-sale presentation support tailored to each home and sales campaign.",
+    title: "Property staging",
+    text: "Property staging services tailored to each home and sales campaign.",
   bullets: [
-      "Room-by-room styling advice to prepare the home for photography, inspections and launch campaigns",
-      "Tailored styling brief based on the property, buyer profile and sales goals",
-      "Furniture, décor, art and soft furnishing direction for each space",
-      "Décor sourcing and selection support",
+      "Styling brief tailored to the property, buyer profile and sales goals",
+      "Room-by-room furniture, décor, art and soft furnishing direction, decor sourcing and selections",
       "Practical staging recommendations that balance presentation, scale and budget",
-      "Coordination of delivery, installation, styling execution and bump out, where required",
+      "Coordination of delivery, installation, execution and bump out, where required",
     ],
   },
-  {
+    {
     icon: Sofa,
-    title: "Interior styling",
-    text: "Soft furnishings, furniture, art, lighting and décor selections for homes that feel resolved, calm and considered.",
-  bullets: [
-      "Styling brief tailored to your home, lifestyle, aesthetic and budget",
-      "Room-by-room direction across furniture, décor, art, lighting and soft furnishings",
-      "Practical recommendations to enhance flow, comfort, cohesion and everyday function",
+    title: "Interior Styling & Refresh Consultations",
+    text: "Interior styling and refresh consultations tailored to each home.",
+    bullets: [
+      "Room-by-room styling advice to refresh and elevate existing interiors",
+      "Tailored styling brief based on your home, lifestyle, aesthetic and goals",
+      "Guidance on furniture placement, décor, art, lighting, colour and soft furnishings",
+      "Recommendations to work with existing pieces, alongside new selections where needed",
+      "Décor, furniture and homewares sourcing to create a cohesive finished look",
+      "Practical styling direction that balances impact, functionality and budget",
     ],
-    showIntro: true,
   },
   {
     icon: Sparkles,
